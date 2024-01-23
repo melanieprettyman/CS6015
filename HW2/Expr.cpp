@@ -24,7 +24,7 @@ bool Num::equals(Expr *e) {
         //then cast e to Num
         Num* num = dynamic_cast<Num*>(e);
         //return true if their values are equal
-        return val == num->val;
+        return (val == num->val && num!= nullptr);
     }
     return false;
 }

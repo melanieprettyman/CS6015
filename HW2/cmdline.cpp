@@ -55,9 +55,15 @@ TEST_CASE("Num Class") {
     Num num1(5);
     Num num2(5);
     Num num3(10);
+    Num num4(5);
+    Num num5(5);
 
     CHECK(num1.equals(&num2) == true);
     CHECK(num1.equals(&num3) == false);
+    CHECK(num4.equals(&num5) == true);
+    CHECK(num4.equals(&num3) == false);
+    CHECK(num2.equals(&num3) == false);
+
 }
 
 /**
@@ -66,7 +72,7 @@ Num num2(5);
 CHECK(num1.equals(&num2) == true);
 
 is the same as
-   
+
 Num* num1 = new Num(5);
 Num* num2 = new Num(5);
 CHECK(num1->equals(num2) == true);
@@ -79,9 +85,15 @@ TEST_CASE("Add Class") {
     Add add1(&num1, &num2);
     Add add2(&num1, &num2);
     Add add3(&num1, &num1);
+    Num num3(5);
+    Num num4(10);
+    Add add4(&num3, &num4);
 
     CHECK(add1.equals(&add2) == true);
     CHECK(add1.equals(&add3) == false);
+    CHECK(add3.equals(&add4) == false);
+    CHECK(add1.equals(&add3) == false);
+    CHECK(add4.equals(&add4) == true);
 }
 
 TEST_CASE("Mult Class") {
@@ -90,18 +102,29 @@ TEST_CASE("Mult Class") {
     Mult mult1(&num1, &num2);
     Mult mult2(&num1, &num2);
     Mult mult3(&num1, &num1);
+    Num num3(5);
+    Num num4(10);
+    Mult mult4(&num3, &num4);
 
     CHECK(mult1.equals(&mult2) == true);
     CHECK(mult1.equals(&mult3) == false);
+    CHECK(mult3.equals(&mult4) == false);
+    CHECK(mult1.equals(&mult3) == false);
+    CHECK(mult4.equals(&mult4) == true);
 }
 
 TEST_CASE("VarExpr Class") {
     VarExpr var1("x");
     VarExpr var2("x");
     VarExpr var3("y");
+    VarExpr var4("z");
+    VarExpr var5("z");
 
     CHECK(var1.equals(&var2) == true);
     CHECK(var1.equals(&var3) == false);
+    CHECK(var4.equals(&var5) == true);
+    CHECK(var4.equals(&var3) == false);
+    CHECK(var2.equals(&var3) == false);
 }
 
 TEST_CASE("Mixed Expressions") {
