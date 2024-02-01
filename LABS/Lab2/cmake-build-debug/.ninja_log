@@ -1,0 +1,13 @@
+# ninja log v5
+2	564	1706208206053003815	CMakeFiles/untitled.dir/softwarearchitectClass.cpp.o	6ff18aa1d733c83d
+2	566	1706208206052697732	CMakeFiles/untitled.dir/employeeClass.cpp.o	340181578d433b95
+2	567	1706208206053564147	CMakeFiles/untitled.dir/programmerClass.cpp.o	dc22e282efea0c
+1	585	1706208206074951363	CMakeFiles/untitled.dir/main.cpp.o	d5684fa1bb734d5f
+2	604	1706208206095052246	CMakeFiles/untitled.dir/Department.cpp.o	657155e0394c8d25
+604	647	1706208206139344591	untitled	6262191b07d2bc3a
+6	494	1706208749511425339	CMakeFiles/untitled.dir/employeeClass.cpp.o	340181578d433b95
+494	536	1706208749556911599	untitled	6262191b07d2bc3a
+7	559	1706209486210144033	CMakeFiles/untitled.dir/Department.cpp.o	657155e0394c8d25
+559	602	1706209486256613215	untitled	6262191b07d2bc3a
+6	561	1706209912755484540	CMakeFiles/untitled.dir/Department.cpp.o	657155e0394c8d25
+561	604	1706209912801224300	untitled	6262191b07d2bc3a

@@ -1,0 +1,6 @@
+# ninja log v5
+7	261	1706810826475821955	CMakeFiles/LAB3_AidenPrattHW3.dir/main.cpp.o	5364a650b76d763d
+8	343	1706810988250264056	CMakeFiles/LAB3_AidenPrattHW3.dir/tests.cpp.o	1b8e1ccc1bfe76e2
+1999	2056	1706810989965252677	LAB3_AidenPrattHW3	18906db5c8899619
+7	295	1706810988202117641	CMakeFiles/LAB3_AidenPrattHW3.dir/expr.cpp.o	c298e45adba86ab8
+7	1999	1706810989901310111	CMakeFiles/LAB3_AidenPrattHW3.dir/cmdline.cpp.o	33b6cf09ecf5bfa

@@ -1,0 +1,20 @@
+#Melanie Prettyman
+#CS 6015 Lab1 
+#Targets:
+#clean deletes program, and all .o and .out files
+#program compiles the source files of the program into an output executable
+
+all: program
+
+program: Caps.o Clothing.o main.o Pants.o
+	c++ Caps.o Clothing.o main.o Pants.o -o hello
+Caps.o: Caps.cpp Caps.h
+	c++ -c Caps.cpp 
+Clothing.o: Clothing.h Clothing.cpp
+	c++ -c Clothing.cpp
+main.o: main.cpp
+	c++ -c main.o
+Pants.o: Pants.h Pants.cpp
+	c++ -c Pants.cpp
+clean: 
+	rm -f *.o *.out program

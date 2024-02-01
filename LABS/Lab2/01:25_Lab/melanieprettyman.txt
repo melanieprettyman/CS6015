@@ -1,0 +1,1319 @@
+Script started on Thu Jan 25 10:37:29 2024
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mclang++ *.cpp  -o program[27m[25D[27mc[27ml[27ma[27mn[27mg[27m+[27m+[27m [27m*[27m.[27mc[27mp[27mp[27m [27m [27m-[27mo[27m [27mp[27mr[27mo[27mg[27mr[27ma[27mm[?1l>[?2004l
+]2;clang++ *.cpp -o program]1;clang++zsh: no matches found: *.cpp
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;31m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp  -o program[?1l>[?2004l
+]2;clang++ *.cpp -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls -G -l]1;lstotal 536
+-rwxrwxrwx@  1 melanieprettyman  staff    4128 Jan  4 16:52 [31mDepartment.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1486 Oct  8  2018 [31mDepartment.h[39;49m[0m
+-rw-r--r--@  1 melanieprettyman  staff   15076 Jan 25 10:34 Expected_Output.docx
+-rw-r--r--@  1 melanieprettyman  staff   13406 Jan 25 10:34 Report.docx
+drwx------@ 11 melanieprettyman  staff     352 Jan 25 10:38 [1m[36mbuggyCode[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1018 Jan  4 16:59 [31memployeeClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     621 Jan  4 17:00 [31memployeeClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    5085 Jan  4 16:47 [31mmain.cpp[39;49m[0m
+-rw-r--r--   1 melanieprettyman  staff    1283 Jan 25 10:38 melanieprettyman.txt
+-rwxr-xr-x   1 melanieprettyman  staff  188596 Jan 25 10:38 [31mprogram[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     955 Mar 15  2018 [31mprogrammerClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     595 Mar 15  2018 [31mprogrammerClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1072 Mar 15  2018 [31msoftwarearchitectClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     633 Mar 15  2018 [31msoftwarearchitectClass.h[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mclang++ *.cpp -g -O0  -o program[27m[32D[27mc[27ml[27ma[27mn[27mg[27m+[27m+[27m [27m*[27m.[27mc[27mp[27mp[27m [27m-[27mg[27m [27m-[27mO[27m0[27m [27m [27m-[27mo[27m [27mp[27mr[27mo[27mg[27mr[27ma[27mm[?1l>[?2004l
+]2;clang++ *.cpp -g -O0 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -O0  -o program[32Dls -l               [2C          [27D[?1l>[?2004l
+]2;ls -G -l]1;lstotal 760
+-rwxrwxrwx@  1 melanieprettyman  staff    4128 Jan  4 16:52 [31mDepartment.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1486 Oct  8  2018 [31mDepartment.h[39;49m[0m
+-rw-r--r--@  1 melanieprettyman  staff   15076 Jan 25 10:34 Expected_Output.docx
+-rw-r--r--@  1 melanieprettyman  staff   13406 Jan 25 10:34 Report.docx
+drwx------@ 11 melanieprettyman  staff     352 Jan 25 10:38 [1m[36mbuggyCode[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1018 Jan  4 16:59 [31memployeeClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     621 Jan  4 17:00 [31memployeeClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    5085 Jan  4 16:47 [31mmain.cpp[39;49m[0m
+-rw-r--r--   1 melanieprettyman  staff    4448 Jan 25 10:41 melanieprettyman.txt
+-rwxr-xr-x   1 melanieprettyman  staff  299892 Jan 25 10:41 [31mprogram[39;49m[0m
+drwxr-xr-x   3 melanieprettyman  staff      96 Jan 25 10:41 [1m[36mprogram.dSYM[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     955 Mar 15  2018 [31mprogrammerClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     595 Mar 15  2018 [31mprogrammerClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1072 Mar 15  2018 [31msoftwarearchitectClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     633 Mar 15  2018 [31msoftwarearchitectClass.h[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hls -lclang++ *.cpp -g -O0  -o program10  -o program[13D[P[13C [14D[1C [P[11C [13D1  -o program[12D[?1l>[?2004l
+]2;clang++ *.cpp -g -O1 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -O1  -o program[P[13C [14D01  -o program[13D[1C [P[11C [13D2  -o program[12D[?1l>[?2004l
+]2;clang++ *.cpp -g -02 -o program]1;clang++clang: [0;1;31merror: [0m[1munknown argument: '-02'[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;31m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -02  -o program[1C[P[13C [14Do2  -o program[13D[?1l>[?2004l
+]2;clang++ *.cpp -g -o2 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls -G -l]1;lstotal 768
+-rwxrwxrwx@  1 melanieprettyman  staff    4128 Jan  4 16:52 [31mDepartment.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1486 Oct  8  2018 [31mDepartment.h[39;49m[0m
+-rw-r--r--@  1 melanieprettyman  staff   15076 Jan 25 10:34 Expected_Output.docx
+-rw-r--r--@  1 melanieprettyman  staff   13406 Jan 25 10:34 Report.docx
+drwx------@ 11 melanieprettyman  staff     352 Jan 25 10:38 [1m[36mbuggyCode[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1018 Jan  4 16:59 [31memployeeClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     621 Jan  4 17:00 [31memployeeClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    5085 Jan  4 16:47 [31mmain.cpp[39;49m[0m
+-rw-r--r--   1 melanieprettyman  staff    8463 Jan 25 10:49 melanieprettyman.txt
+-rwxr-xr-x   1 melanieprettyman  staff  299892 Jan 25 10:49 [31mprogram[39;49m[0m
+drwxr-xr-x   3 melanieprettyman  staff      96 Jan 25 10:41 [1m[36mprogram.dSYM[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     955 Mar 15  2018 [31mprogrammerClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     595 Mar 15  2018 [31mprogrammerClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1072 Mar 15  2018 [31msoftwarearchitectClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     633 Mar 15  2018 [31msoftwarearchitectClass.h[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hls -lclang++ *.cpp -g -o2  -o program[P[13C [14D[1C [P[11C [13Do  -o program[12D1  -o program[12D[?1l>[?2004l
+]2;clang++ *.cpp -g -o1 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -o1  -o program[32Dls -l               [2C          [27D[?1l>[?2004l
+]2;ls -G -l]1;lstotal 768
+-rwxrwxrwx@  1 melanieprettyman  staff    4128 Jan  4 16:52 [31mDepartment.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1486 Oct  8  2018 [31mDepartment.h[39;49m[0m
+-rw-r--r--@  1 melanieprettyman  staff   15076 Jan 25 10:34 Expected_Output.docx
+-rw-r--r--@  1 melanieprettyman  staff   13406 Jan 25 10:34 Report.docx
+drwx------@ 11 melanieprettyman  staff     352 Jan 25 10:38 [1m[36mbuggyCode[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1018 Jan  4 16:59 [31memployeeClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     621 Jan  4 17:00 [31memployeeClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    5085 Jan  4 16:47 [31mmain.cpp[39;49m[0m
+-rw-r--r--   1 melanieprettyman  staff    8463 Jan 25 10:49 melanieprettyman.txt
+-rwxr-xr-x   1 melanieprettyman  staff  299892 Jan 25 10:49 [31mprogram[39;49m[0m
+drwxr-xr-x   3 melanieprettyman  staff      96 Jan 25 10:41 [1m[36mprogram.dSYM[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     955 Mar 15  2018 [31mprogrammerClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     595 Mar 15  2018 [31mprogrammerClass.h[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff    1072 Mar 15  2018 [31msoftwarearchitectClass.cpp[39;49m[0m
+-rwxrwxrwx@  1 melanieprettyman  staff     633 Mar 15  2018 [31msoftwarearchitectClass.h[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hls -lclang++ *.cpp -g -o1  -o program[32Dls -l               [2C          [27Dclang++ *.cpp -g -o2  -o program[14D0[13C[14DO1[12C[32Dls -l               [2C          [27Dclang++ *.cpp -g -O0  -o program[?1l>[?2004l
+]2;clang++ *.cpp -g -O0 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mlldb program[27m[12D[27ml[27ml[27md[27mb[27m [27mp[27mr[27mo[27mg[27mr[27ma[27mm[?1l>[?2004l
+]2;lldb program]1;lldb(lldb) target create "program"
+[2mLocating external symbol file for program...[0m[K[2K[2mLoading Apple DWARF index for program...[0m[K[2K[2mLocating external symbol file for dyld...[0m[K[2K[2mParsing symbol table for dyld...[0m[K[2K[2mLocating external symbol file for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for libc++.1.dylib...[0m[K[2K[2mLocating external symbol file for libSystem.B.dylib...[0m[K[2K[2mParsing symbol table for libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file for libc++abi.dylib...[0m[K[2K[2mParsing symbol table for libc++abi.dylib...[0m[K[2K[2mLocating external symbol file for libcache.dylib...[0m[K[2K[2mParsing symbol table for libcache.dylib...[0m[K[2K[2mLocating external symbol file for libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table for libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file for libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table for libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file for libcopyfile.dylib...[0m[K[2K[2mParsing symbol table for libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file for libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table for libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file for libdispatch.dylib...[0m[K[2K[2mParsing symbol table for libdispatch.dylib...[0m[K[2K[2mLocating external symbol file for libdyld.dylib...[0m[K[2K[2mParsing symbol table for libdyld.dylib...[0m[K[2K[2mLocating external symbol file for libkeymgr.dylib...[0m[K[2K[2mParsing symbol table for libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file for libmacho.dylib...[0m[K[2K[2mParsing symbol table for libmacho.dylib...[0m[K[2K[2mLocating external symbol file for libquarantine.dylib...[0m[K[2K[2mParsing symbol table for libquarantine.dylib...[0m[K[2K[2mLocating external symbol file for libremovefile.dylib...[0m[K[2K[2mParsing symbol table for libremovefile.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table for libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table for libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_c.dylib...[0m[K[2K[2mParsing symbol table for libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table for libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table for libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table for libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table for libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table for libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table for libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_info.dylib...[0m[K[2K[2mParsing symbol table for libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_m.dylib...[0m[K[2K[2mParsing symbol table for libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table for libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table for libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table for libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table for libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table for libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table for libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table for libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table for libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table for libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table for libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file for libunwind.dylib...[0m[K[2K[2mParsing symbol table for libunwind.dylib...[0m[K[2K[2mLocating external symbol file for libxpc.dylib...[0m[K[2K[2mParsing symbol table for libxpc.dylib...[0m[K[2K[2mLocating external symbol file for libobjc.A.dylib...[0m[K[2K[2mParsing symbol table for libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file for liboah.dylib...[0m[K[2K[2mParsing symbol table for liboah.dylib...[0m[K[2K[2mParsing symbol table for program...[0m[K[2KCurrent executable set to '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64).
+(lldb) [1G[2m(lldb) [0m[8Grun
+Process 78453 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   0   Technology Specialist   3000.00      2015
+
+   Mary   0         Project Manager   5500.00      2010
+
+   Marc   0    Research Team Leader   8000.00      2007
+
+   Mike   0        Multimedia Prog.   2500.00      2014
+
+  Julie   0     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert   0                OS Prog.   2300.00      2015
+
+   John   0    Senior Software Eng.   4899.00      2011
+
+ Connor   0      Software Developer   1900.00      2017
+  Here is the List of all the Staff in the IT Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+    Roy   0           Network Prog.   1900.00      2016
+
+   Jane   0                  Tester   1500.00      2018
+
+ Removing Mike from the company: Succeeded
+ -------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Mary   0         Project Manager   5500.00      2010
+
+  Julie   0     Mainframe Sys.Prog.   2150.00      2013
+
+ Connor   0      Software Developer   1900.00      2017
+
+  Here is the List of all the Programmers who know C++ in the R&D Department: 
+  ---------------------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+  Julie   0     Mainframe Sys.Prog.   2150.00      2013      Mary         5         C++
+
+ Listing All Project IDs:  5 8
+-------------------------
+The Highest R&D Employee Salary is: 5500.00
+The Highest R&D Programmer Salary is: 2150.00
+The Highest R&D Software Architect Salary is: 1900.00
+
+The Average R&D Employee Salary is: 5500
+The Average R&D Programmer Salary is: 2150
+The Average R&D Software Architect Salary is: 1900
+
+The Average IT Employee Salary is: 0
+The Average IT Programmer Salary is: 750
+The Average IT Software Architect Salary is: 0
+
+Process 78453 exited with status = 0 (0x00000000) 
+(lldb) [1G[2m(lldb) [0m[8Gb employeeClass.cpp:12
+Breakpoint 1: 2 locations.
+(lldb) [1G[2m(lldb) [0m[8Grun
+Process 78934 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+Process 78934 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.2[0m
+    frame #0: [33m0x000000010000c244[0m program`Employee::Employee(this=0x000000016fdff070, nme="Josh", id=1, jbTtle="Technology Specialist", slry=3000, yr=2015) at [36memployeeClass.cpp[0m:[33m13[0m:[33m76[0m
+[33m  [0m 10  	}
+[33m  [0m 11  	
+[33m  [0m 12  	[35m/* Constructor w/ parameters */[0m
+[33m->[0m 13  	Employee::Employee(string nme, [32mint[0m id, string jbTtle, [32mdouble[0m slry, [32mint[0m yr) [4m{[0m
+[33m  [0m 14  		name = nme;
+[33m  [0m 15  	
+[33m  [0m 16  	    [32mif[0m (id > [31m0[0m)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gfram [1G[2m(lldb) [0m[12Ge variable
+(Employee *) this = 0x000000016fdff070
+(std::string) nme = "Josh"
+(int) id = 1
+(std::string) jbTtle = "Technology Specialist"
+(double) slry = 3000
+(int) yr = 2015
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 78934 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x000000010000c0bc[0m program`Employee::Employee(this=0x000000016fdff070, nme="Josh", id=1, jbTtle="Technology Specialist", slry=3000, yr=2015) at [36memployeeClass.cpp[0m:[33m13[0m:[33m11[0m
+[33m  [0m 10  	}
+[33m  [0m 11  	
+[33m  [0m 12  	[35m/* Constructor w/ parameters */[0m
+[33m->[0m 13  	Employee::[4mEmployee[0m(string nme, [32mint[0m id, string jbTtle, [32mdouble[0m slry, [32mint[0m yr) {
+[33m  [0m 14  		name = nme;
+[33m  [0m 15  	
+[33m  [0m 16  	    [32mif[0m (id > [31m0[0m)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 78934 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c0f0[0m program`Employee::Employee(this=0x000000016fdff070, nme="Josh", id=1, jbTtle="Technology Specialist", slry=3000, yr=2015) at [36memployeeClass.cpp[0m:[33m14[0m:[33m7[0m
+[33m  [0m 11  	
+[33m  [0m 12  	[35m/* Constructor w/ parameters */[0m
+[33m  [0m 13  	Employee::Employee(string nme, [32mint[0m id, string jbTtle, [32mdouble[0m slry, [32mint[0m yr) {
+[33m->[0m 14  		name [4m=[0m nme;
+[33m  [0m 15  	
+[33m  [0m 16  	    [32mif[0m (id > [31m0[0m)
+[33m  [0m 17  	        ID = [31m0[0m;
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 78934 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c0f8[0m program`Employee::Employee(this=0x000000016fdff070, nme="Josh", id=1, jbTtle="Technology Specialist", slry=3000, yr=2015) at [36memployeeClass.cpp[0m:[33m16[0m:[33m9[0m
+[33m  [0m 13  	Employee::Employee(string nme, [32mint[0m id, string jbTtle, [32mdouble[0m slry, [32mint[0m yr) {
+[33m  [0m 14  		name = nme;
+[33m  [0m 15  	
+[33m->[0m 16  	    [32mif[0m ([4mid[0m > [31m0[0m)
+[33m  [0m 17  	        ID = [31m0[0m;
+[33m  [0m 18  	    [32melse[0m
+[33m  [0m 19  	        ID = id;
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 78934 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c110[0m program`Employee::Employee(this=0x000000016fdff070, nme="Josh", id=1, jbTtle="Technology Specialist", slry=3000, yr=2015) at [36memployeeClass.cpp[0m:[33m17[0m:[33m12[0m
+[33m  [0m 14  		name = nme;
+[33m  [0m 15  	
+[33m  [0m 16  	    [32mif[0m (id > [31m0[0m)
+[33m->[0m 17  	        ID [4m=[0m [31m0[0m;
+[33m  [0m 18  	    [32melse[0m
+[33m  [0m 19  	        ID = id;
+[33m  [0m 20  	
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp ID
+(int) $0 = 1876947056
+(lldb) [1G[2m(lldb) [0m[8Gp ID[1G[2m(lldb) [0m[12Gn[K[1G[2m(lldb) [0m[9Gframe variable[1G[2m(lldb) [0m[22G[8Grun[K[1G[2m(lldb) [0m[11Gb employeeClass.cpp:12[1G[2m(lldb) [0m[30G[8Grun[K[1G[2m(lldb) [0m[11G[1G[2m(lldb) [0m[11G[1G[2m(lldb) [0m[11G[1G[2m(lldb) [0m[11Gb employeeClass.cpp:12[1G[2m(lldb) [0m[30G[8Grun[K[1G[2m(lldb) [0m[11Gframe variable[1G[2m(lldb) [0m[22G[8Gn[K[1G[2m(lldb) [0m[9Gp ID[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[8G[1G[2m(lldb) [0m[8Gclang++ *.cpp -g -O0  -o program
+[0;1;31merror: [0m'clang' is not a valid command.
+(lldb) [1G[2m(lldb) [0m[8Gclang++ *.cpp  -o program
+[0;1;31merror: [0m'clang' is not a valid command.
+(lldb) [1G[2m(lldb) [0m[8Gquit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y /n] y[KY
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlldb program[12Dclang++ *.cpp -g -O0  -o program[32Dls -l               [2C          [27Dclang++ *.cpp -g -o1  -o program[32Dls -l               [2C          [27Dclang++ *.cpp -g -O0  -o program[32Dlldb program        [2C          [20D[12D            [12Dlldb program[12Dclang++ *.cpp -g -O0  -o program[32Dls -l               [2C          [27Dclang++ *.cpp -g -o1  -o program[32Dls -l               [2C          [27Dclang++ *.cpp -g -o1  -o program[32Dls -l               [2C          [27Dclang++ *.cpp -g -O0  -o program[32Dlldb program        [2C          [20D[12D            [12Dlldb program[12Dclang++ *.cpp -g -O0  -o program[P[10C [12D[P[11C [12D[P[11C [12D[P[11C [12D[P[10C [12D[P[11C [12D[P[11C [12D[P[10C [12D[?1l>[?2004l
+]2;clang++ *.cpp -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hrrun[?1l>[?2004l
+]2;run]1;runzsh: command not found: run
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;31m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h../program[?1l>[?2004l
+]2;./program]1;./program  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+   Mike  11        Multimedia Prog.   2500.00      2014
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+  Here is the List of all the Staff in the IT Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+    Roy  32           Network Prog.   1900.00      2016
+
+   Jane  35                  Tester   1500.00      2018
+
+ Removing Mike from the company: Succeeded
+ -------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+
+  Here is the List of all the Programmers who know C++ in the R&D Department: 
+  ---------------------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013      Mary         5         C++
+
+ Albert  13                OS Prog.   2300.00      2015      Mary         9         C++
+
+ Listing All Project IDs:  5 9 6 8
+-------------------------
+The Highest R&D Employee Salary is: 8000.00
+The Highest R&D Programmer Salary is: 2300.00
+The Highest R&D Software Architect Salary is: 1900.00
+
+The Average R&D Employee Salary is: 2666
+The Average R&D Programmer Salary is: 1150
+The Average R&D Software Architect Salary is: 3399
+
+The Average IT Employee Salary is: 0
+The Average IT Programmer Salary is: 750
+The Average IT Software Architect Salary is: 0
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h./program[9Drun      clang++ *.cpp -o program[24Dlldb program            [12D[12Dclang++ *.cpp -o program[24Dlldb program            [12D[12Dclang++ *.cpp -g -O0  -o program[?1l>[?2004l
+]2;clang++ *.cpp -g -O0 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mlldb program[27m[12D[27ml[27ml[27md[27mb[27m [27mp[27mr[27mo[27mg[27mr[27ma[27mm[?1l>[?2004l
+]2;lldb program]1;lldb(lldb) target create "program"
+[2mLocating external symbol file for program...[0m[K[2K[2mLoading Apple DWARF index for program...[0m[K[2K[2mLocating external symbol file for dyld...[0m[K[2K[2mParsing symbol table for dyld...[0m[K[2K[2mLocating external symbol file for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for libc++.1.dylib...[0m[K[2K[2mLocating external symbol file for libSystem.B.dylib...[0m[K[2K[2mParsing symbol table for libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file for libc++abi.dylib...[0m[K[2K[2mParsing symbol table for libc++abi.dylib...[0m[K[2K[2mLocating external symbol file for libcache.dylib...[0m[K[2K[2mParsing symbol table for libcache.dylib...[0m[K[2K[2mLocating external symbol file for libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table for libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file for libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table for libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file for libcopyfile.dylib...[0m[K[2K[2mParsing symbol table for libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file for libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table for libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file for libdispatch.dylib...[0m[K[2K[2mParsing symbol table for libdispatch.dylib...[0m[K[2K[2mLocating external symbol file for libdyld.dylib...[0m[K[2K[2mParsing symbol table for libdyld.dylib...[0m[K[2K[2mLocating external symbol file for libkeymgr.dylib...[0m[K[2K[2mParsing symbol table for libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file for libmacho.dylib...[0m[K[2K[2mParsing symbol table for libmacho.dylib...[0m[K[2K[2mLocating external symbol file for libquarantine.dylib...[0m[K[2K[2mParsing symbol table for libquarantine.dylib...[0m[K[2K[2mLocating external symbol file for libremovefile.dylib...[0m[K[2K[2mParsing symbol table for libremovefile.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table for libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table for libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_c.dylib...[0m[K[2K[2mParsing symbol table for libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table for libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table for libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table for libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table for libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table for libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table for libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_info.dylib...[0m[K[2K[2mParsing symbol table for libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_m.dylib...[0m[K[2K[2mParsing symbol table for libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table for libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table for libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table for libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table for libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table for libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table for libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table for libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table for libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table for libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table for libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file for libunwind.dylib...[0m[K[2K[2mParsing symbol table for libunwind.dylib...[0m[K[2K[2mLocating external symbol file for libxpc.dylib...[0m[K[2K[2mParsing symbol table for libxpc.dylib...[0m[K[2K[2mLocating external symbol file for libobjc.A.dylib...[0m[K[2K[2mParsing symbol table for libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file for liboah.dylib...[0m[K[2K[2mParsing symbol table for liboah.dylib...[0m[K[2K[2mParsing symbol table for program...[0m[K[2KCurrent executable set to '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64).
+(lldb) [1G[2m(lldb) [0m[8Gb department.cpp:23[P.[1G[2m(lldb) [0m[19G[P.[1G[2m(lldb) [0m[18G[P.[1G[2m(lldb) [0m[17G[P.[1G[2m(lldb) [0m[16G[P.[1G[2m(lldb) [0m[15G[P.[1G[2m(lldb) [0m[14G[P.[1G[2m(lldb) [0m[13G[P.[1G[2m(lldb) [0m[12G[P.[1G[2m(lldb) [0m[11G[P.[1G[2m(lldb) [0m[10G[1@m.[1G[2m(lldb) [0m[11G[1@a.[1G[2m(lldb) [0m[12G[1@i.[1G[2m(lldb) [0m[13G[1@n.[1G[2m(lldb) [0m[14G.cpp:23[K[1G[2m(lldb) [0m[20G[K[1G[2m(lldb) [0m[19G59
+Breakpoint 1: where = program`main + 1944 at main.cpp:59:9, address = 0x000000010000d8bc
+(lldb) [1G[2m(lldb) [0m[8Gbt
+[0;1;31merror: [0mCommand requires a current process.
+(lldb) [1G[2m(lldb) [0m[8Gbreakpoint list
+Current breakpoints:
+1: file = 'main.cpp', line = 59, exact_match = 0, locations = 1
+  1.1: where = program`main + 1944 at main.cpp:59:9, address = program[0x000000010000d8bc], unresolved, hit count = 0 
+
+(lldb) [1G[2m(lldb) [0m[8Gbit[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9Gt
+[0;1;31merror: [0mCommand requires a current process.
+(lldb) [1G[2m(lldb) [0m[8Gbt b
+[0;1;31merror: [0mbt [<digit> | all]
+(lldb) [1G[2m(lldb) [0m[8Grun
+Process 80773 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+Process 80773 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x000000010000d8bc[0m program`main at [36mmain.cpp[0m:[33m59[0m:[33m9[0m
+[33m  [0m 56  		{
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m->[0m 59  	        [4mAllRnDEmployees1[0m->at(i)->print();
+[33m  [0m 60  		}
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gb[K[1G[2m(lldb) [0m[8Gn
+   Josh   1   Technology Specialist   3000.00      2015
+Process 80773 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000d8e4[0m program`main at [36mmain.cpp[0m:[33m60[0m:[33m2[0m
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m  [0m 59  	        AllRnDEmployees1->at(i)->print();
+[33m->[0m 60  		[4m}[0m
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+[33m  [0m 63  		cout << "  ------------------------------------------------------------\n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Grun
+There is a running process, kill it and restart?: [Y/n] y
+Process 80773 exited with status = 9 (0x00000009) 
+Process 80819 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+Process 80819 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x000000010000d8bc[0m program`main at [36mmain.cpp[0m:[33m59[0m:[33m9[0m
+[33m  [0m 56  		{
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m->[0m 59  	        [4mAllRnDEmployees1[0m->at(i)->print();
+[33m  [0m 60  		}
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gs
+Process 80819 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep in[0m
+    frame #0: [33m0x000000010000c340[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m51[0m:[33m10[0m
+[33m  [0m 48  	}
+[33m  [0m 49  	
+[33m  [0m 50  	[32mvoid[0m Employee::print() {
+[33m->[0m 51  		cout << [4msetw[0m([31m7[0m) << getName()
+[33m  [0m 52  			<< setw([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 80819 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c388[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m52[0m:[33m6[0m
+[33m  [0m 49  	
+[33m  [0m 50  	[32mvoid[0m Employee::print() {
+[33m  [0m 51  		cout << setw([31m7[0m) << getName()
+[33m->[0m 52  			<< [4msetw[0m([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m  [0m 55  			<< setw([31m10[0m) << getHireYear()
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gb
+Current breakpoints:
+1: file = 'main.cpp', line = 59, exact_match = 0, locations = 1, resolved = 1, hit count = 2
+  1.1: where = program`main + 1944 at main.cpp:59:9, address = 0x000000010000d8bc, resolved, hit count = 2 
+
+(lldb) [1G[2m(lldb) [0m[8Gbreakpoint delete
+About to delete all breakpoints, do you want to do that?: [Y/n] y
+All breakpoints removed. (1 breakpoint)
+(lldb) [1G[2m(lldb) [0m[8Gquit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y /n] Y
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlldb program[12Dclang++ *.cpp -g -O0  -o program[32D./program           [2C          [23D[9Drun      clang++ *.cpp -o program[?1l>[?2004l
+]2;clang++ *.cpp -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -o program[24Dlldb program            [12D[12Dclang++ *.cpp -g -O0  -o program[32D./program           [2C          [23D[?1l>[?2004l
+]2;./program]1;./program  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+   Mike  11        Multimedia Prog.   2500.00      2014
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+  Here is the List of all the Staff in the IT Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+    Roy  32           Network Prog.   1900.00      2016
+
+   Jane  35                  Tester   1500.00      2018
+
+ Removing Mike from the company: Succeeded
+ -------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+
+  Here is the List of all the Programmers who know C++ in the R&D Department: 
+  ---------------------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013      Mary         5         C++
+
+ Albert  13                OS Prog.   2300.00      2015      Mary         9         C++
+
+ Listing All Project IDs:  5 9 6 8
+-------------------------
+The Highest R&D Employee Salary is: 8000.00
+The Highest R&D Programmer Salary is: 2300.00
+The Highest R&D Software Architect Salary is: 1900.00
+
+The Average R&D Employee Salary is: 2666
+The Average R&D Programmer Salary is: 1150
+The Average R&D Software Architect Salary is: 3399
+
+The Average IT Employee Salary is: 0
+The Average IT Programmer Salary is: 750
+The Average IT Software Architect Salary is: 0
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h./program[9Dclang++ *.cpp -o program[?1l>[?2004l
+]2;clang++ *.cpp -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -o program[24D./program               [15D[?1l>[?2004l
+]2;./program]1;./program  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+   Mike  11        Multimedia Prog.   2500.00      2014
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+  Here is the List of all the Staff in the IT Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+    Roy  32           Network Prog.   1900.00      2016
+
+   Jane  35                  Tester   1500.00      2018
+
+ Removing Mike from the company: Succeeded
+ -------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+
+  Here is the List of all the Programmers who know C++ in the R&D Department: 
+  ---------------------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013      Mary         5         C++
+
+ Albert  13                OS Prog.   2300.00      2015      Mary         9         C++
+
+ Listing All Project IDs:  5 9 6 8
+-------------------------
+The Highest R&D Employee Salary is: 8000.00
+The Highest R&D Programmer Salary is: 2300.00
+The Highest R&D Software Architect Salary is: 1900.00
+
+The Average R&D Employee Salary is: 2666
+The Average R&D Programmer Salary is: 1150
+The Average R&D Software Architect Salary is: 3399
+
+The Average IT Employee Salary is: 0
+The Average IT Programmer Salary is: 750
+The Average IT Software Architect Salary is: 0
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h./program[9Dclang++ *.cpp -o program[24D./program               [15D[9Dclang++ *.cpp -o program[24Dlldb program            [12D[12Dclang++ *.cpp -g -O0  -o program[32D./program           [2C          [23D[9Drun      ./program[9Dclang++ *.cpp -g -O0  -o program[?1l>[?2004l
+]2;clang++ *.cpp -g -O0 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -O0  -o program[32D./program           [2C          [23D[9Dclang++ *.cpp -o program[24D./program               [15D[9Dclang++ *.cpp -o program[24Dlldb program            [12D[?1l>[?2004l
+]2;lldb program]1;lldb(lldb) target create "program"
+[2mLocating external symbol file for program...[0m[K[2K[2mLoading Apple DWARF index for program...[0m[K[2K[2mLocating external symbol file for dyld...[0m[K[2K[2mParsing symbol table for dyld...[0m[K[2K[2mLocating external symbol file for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for libc++.1.dylib...[0m[K[2K[2mLocating external symbol file for libSystem.B.dylib...[0m[K[2K[2mParsing symbol table for libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file for libc++abi.dylib...[0m[K[2K[2mParsing symbol table for libc++abi.dylib...[0m[K[2K[2mLocating external symbol file for libcache.dylib...[0m[K[2K[2mParsing symbol table for libcache.dylib...[0m[K[2K[2mLocating external symbol file for libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table for libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file for libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table for libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file for libcopyfile.dylib...[0m[K[2K[2mParsing symbol table for libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file for libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table for libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file for libdispatch.dylib...[0m[K[2K[2mParsing symbol table for libdispatch.dylib...[0m[K[2K[2mLocating external symbol file for libdyld.dylib...[0m[K[2K[2mParsing symbol table for libdyld.dylib...[0m[K[2K[2mLocating external symbol file for libkeymgr.dylib...[0m[K[2K[2mParsing symbol table for libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file for libmacho.dylib...[0m[K[2K[2mParsing symbol table for libmacho.dylib...[0m[K[2K[2mLocating external symbol file for libquarantine.dylib...[0m[K[2K[2mParsing symbol table for libquarantine.dylib...[0m[K[2K[2mLocating external symbol file for libremovefile.dylib...[0m[K[2K[2mParsing symbol table for libremovefile.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table for libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table for libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_c.dylib...[0m[K[2K[2mParsing symbol table for libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table for libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table for libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table for libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table for libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table for libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table for libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_info.dylib...[0m[K[2K[2mParsing symbol table for libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_m.dylib...[0m[K[2K[2mParsing symbol table for libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table for libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table for libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table for libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table for libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table for libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table for libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table for libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table for libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table for libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table for libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file for libunwind.dylib...[0m[K[2K[2mParsing symbol table for libunwind.dylib...[0m[K[2K[2mLocating external symbol file for libxpc.dylib...[0m[K[2K[2mParsing symbol table for libxpc.dylib...[0m[K[2K[2mLocating external symbol file for libobjc.A.dylib...[0m[K[2K[2mParsing symbol table for libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file for liboah.dylib...[0m[K[2K[2mParsing symbol table for liboah.dylib...[0m[K[2K[2mParsing symbol table for program...[0m[K[2KCurrent executable set to '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64).
+(lldb) [1G[2m(lldb) [0m[8Gquit[1G[2m(lldb) [0m[12Gbreakpoint delete[1G[2m(lldb) [0m[25G[9G[K[1G[2m(lldb) [0m[9Gn[1G[2m(lldb) [0m[9Gs[1G[2m(lldb) [0m[9Grun[1G[2m(lldb) [0m[11Gn[K[1G[2m(lldb) [0m[9Grun[1G[2m(lldb) [0m[11Gbt b[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[10Greakpoint list[1G[2m(lldb) [0m[23G[9Gt[K[1G[2m(lldb) [0m[10G main.cpp:59[1G[2m(lldb) [0m[21G
+Breakpoint 1: where = program`main + 1944 at main.cpp:59:9, address = 0x000000010000d8bc
+(lldb) [1G[2m(lldb) [0m[8Gb main.cpp:59[1G[2m(lldb) [0m[21G[8Gquit[K[1G[2m(lldb) [0m[12Gbreakpoint delete[1G[2m(lldb) [0m[25G[9G[K[1G[2m(lldb) [0m[9Gn[1G[2m(lldb) [0m[9Gs[1G[2m(lldb) [0m[9Grun[1G[2m(lldb) [0m[11G
+Process 82103 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x000000010000d8bc[0m program`main at [36mmain.cpp[0m:[33m59[0m:[33m9[0m
+[33m  [0m 56  		{
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m->[0m 59  	        [4mAllRnDEmployees1[0m->at(i)->print();
+[33m  [0m 60  		}
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gs
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep in[0m
+    frame #0: [33m0x000000010000c340[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m51[0m:[33m10[0m
+[33m  [0m 48  	}
+[33m  [0m 49  	
+[33m  [0m 50  	[32mvoid[0m Employee::print() {
+[33m->[0m 51  		cout << [4msetw[0m([31m7[0m) << getName()
+[33m  [0m 52  			<< setw([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8G[1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c388[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m52[0m:[33m6[0m
+[33m  [0m 49  	
+[33m  [0m 50  	[32mvoid[0m Employee::print() {
+[33m  [0m 51  		cout << setw([31m7[0m) << getName()
+[33m->[0m 52  			<< [4msetw[0m([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m  [0m 55  			<< setw([31m10[0m) << getHireYear()
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c3d0[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m53[0m:[33m6[0m
+[33m  [0m 50  	[32mvoid[0m Employee::print() {
+[33m  [0m 51  		cout << setw([31m7[0m) << getName()
+[33m  [0m 52  			<< setw([31m4[0m) << getID()
+[33m->[0m 53  			<< [4msetw[0m([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m  [0m 55  			<< setw([31m10[0m) << getHireYear()
+[33m  [0m 56  				  << "\n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c420[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m54[0m:[33m6[0m
+[33m  [0m 51  		cout << setw([31m7[0m) << getName()
+[33m  [0m 52  			<< setw([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m->[0m 54  			<< [4msetw[0m([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m  [0m 55  			<< setw([31m10[0m) << getHireYear()
+[33m  [0m 56  				  << "\n";
+[33m  [0m 57  	}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c4a8[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m55[0m:[33m6[0m
+[33m  [0m 52  			<< setw([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m->[0m 55  			<< [4msetw[0m([31m10[0m) << getHireYear()
+[33m  [0m 56  				  << "\n";
+[33m  [0m 57  	}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c4f8[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m56[0m:[33m6[0m
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m  [0m 55  			<< setw([31m10[0m) << getHireYear()
+[33m->[0m 56  				  [4m<<[0m "\n";
+[33m  [0m 57  	}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+   Josh   1   Technology Specialist   3000.00      2015
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c504[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m51[0m:[33m2[0m
+[33m  [0m 48  	}
+[33m  [0m 49  	
+[33m  [0m 50  	[32mvoid[0m Employee::print() {
+[33m->[0m 51  		[4mcout[0m << setw([31m7[0m) << getName()
+[33m  [0m 52  			<< setw([31m4[0m) << getID()
+[33m  [0m 53  			<< setw([31m24[0m) << getJobTitle()
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000c514[0m program`Employee::print(this=0x0000000100204080) at [36memployeeClass.cpp[0m:[33m57[0m:[33m1[0m
+[33m  [0m 54  			<< setw([31m10[0m) << setprecision([31m2[0m) << fixed << getSalary()
+[33m  [0m 55  			<< setw([31m10[0m) << getHireYear()
+[33m  [0m 56  				  << "\n";
+[33m->[0m 57  	[4m}[0m
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000d8e0[0m program`main at [36mmain.cpp[0m:[33m59[0m:[33m34[0m
+[33m  [0m 56  		{
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m->[0m 59  	        AllRnDEmployees1->at(i)->[4mprint[0m();
+[33m  [0m 60  		}
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 82103 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000d8e4[0m program`main at [36mmain.cpp[0m:[33m60[0m:[33m2[0m
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m  [0m 59  	        AllRnDEmployees1->at(i)->print();
+[33m->[0m 60  		[4m}[0m
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+[33m  [0m 63  		cout << "  ------------------------------------------------------------\n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Grun
+There is a running process, kill it and restart?: [Y/n] y
+Process 82103 exited with status = 9 (0x00000009) 
+Process 82328 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+Process 82328 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x000000010000d8bc[0m program`main at [36mmain.cpp[0m:[33m59[0m:[33m9[0m
+[33m  [0m 56  		{
+[33m  [0m 57  			cout << "\n";
+[33m  [0m 58  			[35m//using Base Class Pointers to Call the print function if each Type[0m
+[33m->[0m 59  	        [4mAllRnDEmployees1[0m->at(i)->print();
+[33m  [0m 60  		}
+[33m  [0m 61  	
+[33m  [0m 62  		cout << "  Here is the List of all the Staff in the IT Department: \n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gquit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y /n] Y
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h//.program[?1l>[?2004l
+]2;/.program]1;/.programzsh: no such file or directory: /.program
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;31m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hbb  /.program[9Dlldb program[12Dclang++ *.cpp -g -O0  -o program[32D./program           [2C          [23D[9Dclang++ *.cpp -g -O0  -o program[?1l>[?2004l
+]2;clang++ *.cpp -g -O0 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -O0  -o program[32D/.program           [2C          [23D[9Dlldb program[12Dclang++ *.cpp -g -O0  -o program[32Dlldb program        [2C          [20D[?1l>[?2004l
+]2;lldb program]1;lldb(lldb) target create "program"
+[2mLocating external symbol file for program...[0m[K[2K[2mLoading Apple DWARF index for program...[0m[K[2K[2mLocating external symbol file for dyld...[0m[K[2K[2mParsing symbol table for dyld...[0m[K[2K[2mLocating external symbol file for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for libc++.1.dylib...[0m[K[2K[2mLocating external symbol file for libSystem.B.dylib...[0m[K[2K[2mParsing symbol table for libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file for libc++abi.dylib...[0m[K[2K[2mParsing symbol table for libc++abi.dylib...[0m[K[2K[2mLocating external symbol file for libcache.dylib...[0m[K[2K[2mParsing symbol table for libcache.dylib...[0m[K[2K[2mLocating external symbol file for libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table for libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file for libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table for libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file for libcopyfile.dylib...[0m[K[2K[2mParsing symbol table for libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file for libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table for libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file for libdispatch.dylib...[0m[K[2K[2mParsing symbol table for libdispatch.dylib...[0m[K[2K[2mLocating external symbol file for libdyld.dylib...[0m[K[2K[2mParsing symbol table for libdyld.dylib...[0m[K[2K[2mLocating external symbol file for libkeymgr.dylib...[0m[K[2K[2mParsing symbol table for libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file for libmacho.dylib...[0m[K[2K[2mParsing symbol table for libmacho.dylib...[0m[K[2K[2mLocating external symbol file for libquarantine.dylib...[0m[K[2K[2mParsing symbol table for libquarantine.dylib...[0m[K[2K[2mLocating external symbol file for libremovefile.dylib...[0m[K[2K[2mParsing symbol table for libremovefile.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table for libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table for libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_c.dylib...[0m[K[2K[2mParsing symbol table for libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table for libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table for libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table for libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table for libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table for libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table for libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_info.dylib...[0m[K[2K[2mParsing symbol table for libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_m.dylib...[0m[K[2K[2mParsing symbol table for libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table for libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table for libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table for libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table for libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table for libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table for libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table for libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table for libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table for libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table for libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file for libunwind.dylib...[0m[K[2K[2mParsing symbol table for libunwind.dylib...[0m[K[2K[2mLocating external symbol file for libxpc.dylib...[0m[K[2K[2mParsing symbol table for libxpc.dylib...[0m[K[2K[2mLocating external symbol file for libobjc.A.dylib...[0m[K[2K[2mParsing symbol table for libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file for liboah.dylib...[0m[K[2K[2mParsing symbol table for liboah.dylib...[0m[K[2K[2mParsing symbol table for program...[0m[K[2KCurrent executable set to '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64).
+(lldb) [1G[2m(lldb) [0m[8Gquit[1G[2m(lldb) [0m[12Grun[K[1G[2m(lldb) [0m[11Gn[K[1G[2m(lldb) [0m[9Gs[1G[2m(lldb) [0m[9Grun[1G[2m(lldb) [0m[11Gb main.cpp:59[1G[2m(lldb) [0m[21G[K[1G[2m(lldb) [0m[20G[K[1G[2m(lldb) [0m[19G110
+Breakpoint 1: where = program`main + 4676 at main.cpp:110:7, address = 0x000000010000e368
+(lldb) [1G[2m(lldb) [0m[8Gn[K[1G[2m(lldb) [0m[8Grun
+Process 84151 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+   Mike  11        Multimedia Prog.   2500.00      2014
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+  Here is the List of all the Staff in the IT Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+    Roy  32           Network Prog.   1900.00      2016
+
+   Jane  35                  Tester   1500.00      2018
+
+ Removing Mike from the company: Succeeded
+ -------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+
+  Here is the List of all the Programmers who know C++ in the R&D Department: 
+  ---------------------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013      Mary         5         C++
+
+ Albert  13                OS Prog.   2300.00      2015      Mary         9         C++
+
+ Listing All Project IDs:  5 9 6 8
+-------------------------
+The Highest R&D Employee Salary is: 8000.00
+The Highest R&D Programmer Salary is: 2300.00
+The Highest R&D Software Architect Salary is: 1900.00
+
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x000000010000e368[0m program`main at [36mmain.cpp[0m:[33m110[0m:[33m7[0m
+[33m  [0m 107 		cout << "The Highest R&D Programmer Salary is: " << RnD.CalculateMaxSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 108 		cout << "The Highest R&D Software Architect Salary is: " << RnD.CalculateMaxSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 109 		cout << "\n";
+[33m->[0m 110 		cout [4m<<[0m "The Average R&D Employee Salary is: " << RnD.CalculateAverageSalary(RnD.EMPLOYEE) << endl;
+[33m  [0m 111 		cout << "The Average R&D Programmer Salary is: " << RnD.CalculateAverageSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 112 		cout << "The Average R&D Software Architect Salary is: " << RnD.CalculateAverageSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 113 		cout << "\n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gs
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep in[0m
+    frame #0: [33m0x0000000100002c34[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m70[0m:[33m6[0m
+[33m  [0m 67  	[32mint[0m Department::CalculateAverageSalary(StaffTypes type)
+[33m  [0m 68  	{
+[33m  [0m 69  	    [32mdouble[0m sum;
+[33m->[0m 70  		sum [4m=[0m [31m0.0[0m;
+[33m  [0m 71  		[32mint[0m i;
+[33m  [0m 72  		[32mswitch[0m (type)
+[33m  [0m 73  		{
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002c38[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m72[0m:[33m10[0m
+[33m  [0m 69  	    [32mdouble[0m sum;
+[33m  [0m 70  		sum = [31m0.0[0m;
+[33m  [0m 71  		[32mint[0m i;
+[33m->[0m 72  		[32mswitch[0m ([4mtype[0m)
+[33m  [0m 73  		{
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002c78[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m75[0m:[33m10[0m
+[33m  [0m 72  		[32mswitch[0m (type)
+[33m  [0m 73  		{
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m->[0m 75  			[32mfor[0m (i [4m=[0m [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m  [0m 78  			}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cac[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m77[0m:[33m10[0m
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m->[0m 77  				sum = [4mEmployees[0m->at(i).getSalary();
+[33m  [0m 78  			}
+[33m  [0m 79  			[32mbreak[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cc0[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m78[0m:[33m3[0m
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m->[0m 78  			[4m}[0m
+[33m  [0m 79  			[32mbreak[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 81  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cc4[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m75[0m:[33m39[0m
+[33m  [0m 72  		[32mswitch[0m (type)
+[33m  [0m 73  		{
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m->[0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i[4m++[0m)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m  [0m 78  			}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cac[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m77[0m:[33m10[0m
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m->[0m 77  				sum = [4mEmployees[0m->at(i).getSalary();
+[33m  [0m 78  			}
+[33m  [0m 79  			[32mbreak[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cc0[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m78[0m:[33m3[0m
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m->[0m 78  			[4m}[0m
+[33m  [0m 79  			[32mbreak[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 81  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cc4[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m75[0m:[33m39[0m
+[33m  [0m 72  		[32mswitch[0m (type)
+[33m  [0m 73  		{
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m->[0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i[4m++[0m)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m  [0m 78  			}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cac[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m77[0m:[33m10[0m
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m->[0m 77  				sum = [4mEmployees[0m->at(i).getSalary();
+[33m  [0m 78  			}
+[33m  [0m 79  			[32mbreak[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cc0[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m78[0m:[33m3[0m
+[33m  [0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m->[0m 78  			[4m}[0m
+[33m  [0m 79  			[32mbreak[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 81  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cc4[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m75[0m:[33m39[0m
+[33m  [0m 72  		[32mswitch[0m (type)
+[33m  [0m 73  		{
+[33m  [0m 74  		[32mcase[0m Department::EMPLOYEE:		
+[33m->[0m 75  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i[4m++[0m)
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m  [0m 78  			}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002cd4[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m79[0m:[33m3[0m
+[33m  [0m 76  			{
+[33m  [0m 77  				sum = Employees->at(i).getSalary();
+[33m  [0m 78  			}
+[33m->[0m 79  			[32m[4mbreak[0m[0m;
+[33m  [0m 80  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 81  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+[33m  [0m 82  			{
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002db0[0m program`Department::CalculateAverageSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m97[0m:[33m12[0m
+[33m  [0m 94  			[32mbreak[0m;
+[33m  [0m 95  		}
+[33m  [0m 96  	
+[33m->[0m 97  	    [32mreturn[0m [4msum[0m/i;
+[33m  [0m 98  	}
+[33m  [0m 99  	
+[33m  [0m 100 	vector<Employee*> *Department::getAllStaff()
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000e380[0m program`main at [36mmain.cpp[0m:[33m110[0m:[33m56[0m
+[33m  [0m 107 		cout << "The Highest R&D Programmer Salary is: " << RnD.CalculateMaxSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 108 		cout << "The Highest R&D Software Architect Salary is: " << RnD.CalculateMaxSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 109 		cout << "\n";
+[33m->[0m 110 		cout << "The Average R&D Employee Salary is: " << RnD.[4mCalculateAverageSalary[0m(RnD.EMPLOYEE) << endl;
+[33m  [0m 111 		cout << "The Average R&D Programmer Salary is: " << RnD.CalculateAverageSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 112 		cout << "The Average R&D Software Architect Salary is: " << RnD.CalculateAverageSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 113 		cout << "\n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+The Average R&D Employee Salary is: 2666
+Process 84151 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000e3b8[0m program`main at [36mmain.cpp[0m:[33m111[0m:[33m7[0m
+[33m  [0m 108 		cout << "The Highest R&D Software Architect Salary is: " << RnD.CalculateMaxSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 109 		cout << "\n";
+[33m  [0m 110 		cout << "The Average R&D Employee Salary is: " << RnD.CalculateAverageSalary(RnD.EMPLOYEE) << endl;
+[33m->[0m 111 		cout [4m<<[0m "The Average R&D Programmer Salary is: " << RnD.CalculateAverageSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 112 		cout << "The Average R&D Software Architect Salary is: " << RnD.CalculateAverageSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 113 		cout << "\n";
+[33m  [0m 114 	    
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[K[1G[2m(lldb) [0m[8Gbreakpoint lisr[K[1G[2m(lldb) [0m[22Gt
+Current breakpoints:
+1: file = 'main.cpp', line = 110, exact_match = 0, locations = 1, resolved = 1, hit count = 1
+  1.1: where = program`main + 4676 at main.cpp:110:7, address = 0x000000010000e368, resolved, hit count = 1 
+
+(lldb) [1G[2m(lldb) [0m[8Gquit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y /n] Y
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlldb program[12Dclang++ *.cpp -g -O0  -o program[32D/.program           [2C          [23D[9Dclang++ *.cpp -g -O0  -o program[?1l>[?2004l
+]2;clang++ *.cpp -g -O0 -o program]1;clang++[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hclang++ *.cpp -g -O0  -o program[32Dlldb program        [2C          [20D[?1l>[?2004l
+]2;lldb program]1;lldb(lldb) target create "program"
+[2mLocating external symbol file for program...[0m[K[2K[2mLoading Apple DWARF index for program...[0m[K[2K[2mLocating external symbol file for dyld...[0m[K[2K[2mParsing symbol table for dyld...[0m[K[2K[2mLocating external symbol file for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for libc++.1.dylib...[0m[K[2K[2mLocating external symbol file for libSystem.B.dylib...[0m[K[2K[2mParsing symbol table for libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file for libc++abi.dylib...[0m[K[2K[2mParsing symbol table for libc++abi.dylib...[0m[K[2K[2mLocating external symbol file for libcache.dylib...[0m[K[2K[2mParsing symbol table for libcache.dylib...[0m[K[2K[2mLocating external symbol file for libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table for libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file for libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table for libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file for libcopyfile.dylib...[0m[K[2K[2mParsing symbol table for libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file for libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table for libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file for libdispatch.dylib...[0m[K[2K[2mParsing symbol table for libdispatch.dylib...[0m[K[2K[2mLocating external symbol file for libdyld.dylib...[0m[K[2K[2mParsing symbol table for libdyld.dylib...[0m[K[2K[2mLocating external symbol file for libkeymgr.dylib...[0m[K[2K[2mParsing symbol table for libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file for libmacho.dylib...[0m[K[2K[2mParsing symbol table for libmacho.dylib...[0m[K[2K[2mLocating external symbol file for libquarantine.dylib...[0m[K[2K[2mParsing symbol table for libquarantine.dylib...[0m[K[2K[2mLocating external symbol file for libremovefile.dylib...[0m[K[2K[2mParsing symbol table for libremovefile.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table for libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table for libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_c.dylib...[0m[K[2K[2mParsing symbol table for libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table for libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table for libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table for libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table for libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table for libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table for libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_info.dylib...[0m[K[2K[2mParsing symbol table for libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_m.dylib...[0m[K[2K[2mParsing symbol table for libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table for libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table for libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table for libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table for libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table for libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table for libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table for libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table for libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table for libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table for libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file for libunwind.dylib...[0m[K[2K[2mParsing symbol table for libunwind.dylib...[0m[K[2K[2mLocating external symbol file for libxpc.dylib...[0m[K[2K[2mParsing symbol table for libxpc.dylib...[0m[K[2K[2mLocating external symbol file for libobjc.A.dylib...[0m[K[2K[2mParsing symbol table for libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file for liboah.dylib...[0m[K[2K[2mParsing symbol table for liboah.dylib...[0m[K[2K[2mParsing symbol table for program...[0m[K[2KCurrent executable set to '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64).
+(lldb) [1G[2m(lldb) [0m[8Gb department.cpp:23
+Breakpoint 1: no locations (pending).
+WARNING:  Unable to resolve breakpoint to any actual locations.
+(lldb) [1G[2m(lldb) [0m[8Gb department.cpp:23[1G[2m(lldb) [0m[27G[Pe[1G[2m(lldb) [0m[10G[1@De[1G[2m(lldb) [0m[11G
+Breakpoint 2: where = program`Department::CalculateMaxSalary(Department::StaffTypes) + 32 at Department.cpp:25:9, address = 0x000000010000280c
+(lldb) [1G[2m(lldb) [0m[8Grun
+Process 85203 launched: '/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab/program' (arm64)
+  Here is the List of all the Staff in the R&D Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+   Mike  11        Multimedia Prog.   2500.00      2014
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+  Here is the List of all the Staff in the IT Department: 
+  ------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+    Roy  32           Network Prog.   1900.00      2016
+
+   Jane  35                  Tester   1500.00      2018
+
+ Removing Mike from the company: Succeeded
+ -------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+   Josh   1   Technology Specialist   3000.00      2015
+
+   Mary   2         Project Manager   5500.00      2010
+
+   Marc   3    Research Team Leader   8000.00      2007
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013
+
+ Albert  13                OS Prog.   2300.00      2015
+
+   John  21    Senior Software Eng.   4899.00      2011
+
+ Connor  24      Software Developer   1900.00      2017
+
+  Here is the List of all the Programmers who know C++ in the R&D Department: 
+  ---------------------------------------------------------------------------
+   Name  ID          Title            Salary   Year Hired  Supervisor  ProjectID Prog.Lang. #Exp Years
+
+  Julie  12     Mainframe Sys.Prog.   2150.00      2013      Mary         5         C++
+
+ Albert  13                OS Prog.   2300.00      2015      Mary         9         C++
+
+ Listing All Project IDs:  5 9 6 8
+-------------------------
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 2.1[0m
+    frame #0: [33m0x000000010000280c[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m25[0m:[33m9[0m
+[33m  [0m 22  	
+[33m  [0m 23  	[32mdouble[0m Department::CalculateMaxSalary(StaffTypes type)
+[33m  [0m 24  	{
+[33m->[0m 25  		[32mdouble[0m [4mmax[0m = [31m0[0m;
+[33m  [0m 26  		[32mdouble[0m i = [31m0[0m;
+[33m  [0m 27  		[32mswitch[0m (type)
+[33m  [0m 28  		{
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gs
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep in[0m
+    frame #0: [33m0x0000000100002810[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m26[0m:[33m9[0m
+[33m  [0m 23  	[32mdouble[0m Department::CalculateMaxSalary(StaffTypes type)
+[33m  [0m 24  	{
+[33m  [0m 25  		[32mdouble[0m max = [31m0[0m;
+[33m->[0m 26  		[32mdouble[0m [4mi[0m = [31m0[0m;
+[33m  [0m 27  		[32mswitch[0m (type)
+[33m  [0m 28  		{
+[33m  [0m 29  		[32mcase[0m Department::EMPLOYEE:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gs
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep in[0m
+    frame #0: [33m0x0000000100002814[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m27[0m:[33m10[0m
+[33m  [0m 24  	{
+[33m  [0m 25  		[32mdouble[0m max = [31m0[0m;
+[33m  [0m 26  		[32mdouble[0m i = [31m0[0m;
+[33m->[0m 27  		[32mswitch[0m ([4mtype[0m)
+[33m  [0m 28  		{
+[33m  [0m 29  		[32mcase[0m Department::EMPLOYEE:
+[33m  [0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002858[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m30[0m:[33m10[0m
+[33m  [0m 27  		[32mswitch[0m (type)
+[33m  [0m 28  		{
+[33m  [0m 29  		[32mcase[0m Department::EMPLOYEE:
+[33m->[0m 30  			[32mfor[0m (i [4m=[0m [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002890[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m33[0m:[33m8[0m
+[33m  [0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m->[0m 33  				[32mif[0m ([4mEmployees[0m->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028bc[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m35[0m:[33m11[0m
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m->[0m 35  					max = [4mEmployees[0m->at(i).getSalary();
+[33m  [0m 36  				}
+[33m  [0m 37  			}
+[33m  [0m 38  			[32mbreak[0m;
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028d4[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m36[0m:[33m4[0m
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m->[0m 36  				[4m}[0m
+[33m  [0m 37  			}
+[33m  [0m 38  			[32mbreak[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028d8[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m37[0m:[33m3[0m
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+[33m->[0m 37  			[4m}[0m
+[33m  [0m 38  			[32mbreak[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 40  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028dc[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m30[0m:[33m39[0m
+[33m  [0m 27  		[32mswitch[0m (type)
+[33m  [0m 28  		{
+[33m  [0m 29  		[32mcase[0m Department::EMPLOYEE:
+[33m->[0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i[4m++[0m)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002890[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m33[0m:[33m8[0m
+[33m  [0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m->[0m 33  				[32mif[0m ([4mEmployees[0m->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028bc[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m35[0m:[33m11[0m
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m->[0m 35  					max = [4mEmployees[0m->at(i).getSalary();
+[33m  [0m 36  				}
+[33m  [0m 37  			}
+[33m  [0m 38  			[32mbreak[0m;
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028d4[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m36[0m:[33m4[0m
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m->[0m 36  				[4m}[0m
+[33m  [0m 37  			}
+[33m  [0m 38  			[32mbreak[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028d8[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m37[0m:[33m3[0m
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+[33m->[0m 37  			[4m}[0m
+[33m  [0m 38  			[32mbreak[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 40  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028dc[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m30[0m:[33m39[0m
+[33m  [0m 27  		[32mswitch[0m (type)
+[33m  [0m 28  		{
+[33m  [0m 29  		[32mcase[0m Department::EMPLOYEE:
+[33m->[0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i[4m++[0m)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002890[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m33[0m:[33m8[0m
+[33m  [0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i++)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m->[0m 33  				[32mif[0m ([4mEmployees[0m->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028bc[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m35[0m:[33m11[0m
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m->[0m 35  					max = [4mEmployees[0m->at(i).getSalary();
+[33m  [0m 36  				}
+[33m  [0m 37  			}
+[33m  [0m 38  			[32mbreak[0m;
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028d4[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m36[0m:[33m4[0m
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m->[0m 36  				[4m}[0m
+[33m  [0m 37  			}
+[33m  [0m 38  			[32mbreak[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028d8[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m37[0m:[33m3[0m
+[33m  [0m 34  				{
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+[33m->[0m 37  			[4m}[0m
+[33m  [0m 38  			[32mbreak[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 40  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028dc[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m30[0m:[33m39[0m
+[33m  [0m 27  		[32mswitch[0m (type)
+[33m  [0m 28  		{
+[33m  [0m 29  		[32mcase[0m Department::EMPLOYEE:
+[33m->[0m 30  			[32mfor[0m (i = [31m0[0m; i < Employees->size(); i[4m++[0m)
+[33m  [0m 31  			{
+[33m  [0m 32  	
+[33m  [0m 33  				[32mif[0m (Employees->at(i).getSalary()>max)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000028f0[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m38[0m:[33m3[0m
+[33m  [0m 35  					max = Employees->at(i).getSalary();
+[33m  [0m 36  				}
+[33m  [0m 37  			}
+[33m->[0m 38  			[32m[4mbreak[0m[0m;
+[33m  [0m 39  		[32mcase[0m Department::PROGRAMMER:
+[33m  [0m 40  			[32mfor[0m (i = [31m0[0m; i < Programmers->size(); i++)
+[33m  [0m 41  			{
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002a54[0m program`Department::CalculateMaxSalary(this=0x000000016fdff150, type=EMPLOYEE) at [36mDepartment.cpp[0m:[33m64[0m:[33m9[0m
+[33m  [0m 61  			[32mbreak[0m;
+[33m  [0m 62  		}
+[33m  [0m 63  	
+[33m->[0m 64  		[32mreturn[0m [4mmax[0m;
+[33m  [0m 65  	}
+[33m  [0m 66  	
+[33m  [0m 67  	[32mint[0m Department::CalculateAverageSalary(StaffTypes type)
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000e27c[0m program`main at [36mmain.cpp[0m:[33m106[0m:[33m56[0m
+[33m  [0m 103 		cout << "\n-------------------------\n";
+[33m  [0m 104 	
+[33m  [0m 105 		
+[33m->[0m 106 		cout << "The Highest R&D Employee Salary is: " << RnD.[4mCalculateMaxSalary[0m(RnD.EMPLOYEE) << endl;
+[33m  [0m 107 		cout << "The Highest R&D Programmer Salary is: " << RnD.CalculateMaxSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 108 		cout << "The Highest R&D Software Architect Salary is: " << RnD.CalculateMaxSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 109 		cout << "\n";
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+The Highest R&D Employee Salary is: 8000.00
+Process 85203 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000e2b4[0m program`main at [36mmain.cpp[0m:[33m107[0m:[33m7[0m
+[33m  [0m 104 	
+[33m  [0m 105 		
+[33m  [0m 106 		cout << "The Highest R&D Employee Salary is: " << RnD.CalculateMaxSalary(RnD.EMPLOYEE) << endl;
+[33m->[0m 107 		cout [4m<<[0m "The Highest R&D Programmer Salary is: " << RnD.CalculateMaxSalary(RnD.PROGRAMMER) << endl;
+[33m  [0m 108 		cout << "The Highest R&D Software Architect Salary is: " << RnD.CalculateMaxSalary(RnD.SOFTWAREARCHITECTS) << endl;
+[33m  [0m 109 		cout << "\n";
+[33m  [0m 110 		cout << "The Average R&D Employee Salary is: " << RnD.CalculateAverageSalary(RnD.EMPLOYEE) << endl;
+Target 0: (program) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gquit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y /n] Y
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;32m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hffinish[?1l>[?2004l
+]2;finish]1;finishzsh: command not found: finish
+[1m[7m%[27m[1m[0m                                                                                ]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01%3A25_Lab]2;melanieprettyman@melanies-mbp-2]1;..015/01:25_Lab]7;file://melanies-mbp-2.uconnect.utah.edu/Users/melanieprettyman/desktop/msd/cs6015/cs6015/01:25_Lab\[0m[27m[24m[J[01;31m➜  [36m01:25_Lab[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+Deleting expired sessions...       2 completed.
+
+Script done on Thu Jan 25 12:20:57 2024

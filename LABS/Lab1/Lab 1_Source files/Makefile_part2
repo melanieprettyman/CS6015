@@ -1,0 +1,25 @@
+#Melanie Prettyman
+#CS 6015 Lab1 
+#Targets:
+#clean deletes program, and all .o and .out files
+#program compiles the source files of the program into an output executable
+#printM prints the macros 
+#run runs the program 
+
+CXX=c++
+CFLAGS= -std=c++11
+CCSOURCE= Caps.cpp Clothing.cpp main.cpp Pants.cpp
+HEADERS= Caps.h Clothing.h Pants.h
+
+program: $(CCSOURCE) $(HEADERS)
+	$(CXX) $(CFLAGS) -o program $(CCSOURCE)
+printM: 
+	$(echo $(CCSOURCE))	
+
+.PHONY: clean
+
+clean: 
+	rm -f *.o *.out program
+
+run: program
+	./program
