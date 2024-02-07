@@ -194,7 +194,7 @@ TEST_CASE("VAR-EXPR CLASS - interp, has_variable, subst") {
 //----------------------------------
 //            HW4 TESTS
 //----------------------------------
-TEST_CASE("Test Print & to_string") {
+TEST_CASE("Professor Nabil's Tests") {
 
 
     CHECK((new Mult(new Add(new Num(2), new Num(3)), new Mult(new Num(4), new Num(6))))->to_pp_string() == "(2 + 3) * 4 * 6");

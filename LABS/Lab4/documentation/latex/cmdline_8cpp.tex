@@ -1,0 +1,49 @@
+\doxysection{/\+Users/melanieprettyman/\+Desktop/\+MSD/\+Spring2024/\+CS6015/\+CS6015/\+LABS/\+Lab4/cmdline.cpp File Reference}
+\hypertarget{cmdline_8cpp}{}\label{cmdline_8cpp}\index{/Users/melanieprettyman/Desktop/MSD/Spring2024/CS6015/CS6015/LABS/Lab4/cmdline.cpp@{/Users/melanieprettyman/Desktop/MSD/Spring2024/CS6015/CS6015/LABS/Lab4/cmdline.cpp}}
+
+
+contains command-\/line class  
+
+
+{\ttfamily \#include "{}cmdline.\+h"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}catch.\+h"{}}\newline
+{\ttfamily \#include "{}Expr.\+h"{}}\newline
+{\ttfamily \#include "{}tests.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{cmdline_8cpp_a6ab43ef83f41802b5ea6a08d275daf1e}{use\+\_\+arguments}} (int argc, char \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}argv)
+\begin{DoxyCompactList}\small\item\em Executes commands on the command-\/line for the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+contains command-\/line class 
+
+When running a program from the command line, you can provide arguments to the program. These arguments are passed to the program as argc and argv\mbox{[}\mbox{]} parameters in the main function. \begin{DoxyAuthor}{Author}
+Melanie Prettyman 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{cmdline_8cpp_a6ab43ef83f41802b5ea6a08d275daf1e}\label{cmdline_8cpp_a6ab43ef83f41802b5ea6a08d275daf1e} 
+\index{cmdline.cpp@{cmdline.cpp}!use\_arguments@{use\_arguments}}
+\index{use\_arguments@{use\_arguments}!cmdline.cpp@{cmdline.cpp}}
+\doxysubsubsection{\texorpdfstring{use\_arguments()}{use\_arguments()}}
+{\footnotesize\ttfamily void use\+\_\+arguments (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{argv }\end{DoxyParamCaption})}
+
+
+
+Executes commands on the command-\/line for the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & argc represents the number of arguments passed to the program \\
+\hline
+{\em char} & \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}argv is an array of strings containing the actual arguments. The first argument, argv\mbox{[}0\mbox{]}, always represents the name of the program itself. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns void. Executes command in terminal. 
+\end{DoxyReturn}

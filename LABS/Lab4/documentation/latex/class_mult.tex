@@ -1,0 +1,199 @@
+\doxysection{Mult Class Reference}
+\hypertarget{class_mult}{}\label{class_mult}\index{Mult@{Mult}}
+Inheritance diagram for Mult\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mult}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mult_ace9998f1dc023823e04c15bb359ea79c}{Mult}} (\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}{lhs}}, \mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}{rhs}})
+\begin{DoxyCompactList}\small\item\em \doxylink{class_mult}{Mult} class represents a multiplication expression. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_mult_aa64da9a8fc6b019f8a2db6f813d9a4e6}{equals}} (\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}e) override
+\begin{DoxyCompactList}\small\item\em Checks if the given expression is equal to the current \doxylink{class_mult}{Mult} instance. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_mult_a0ae0098f4a1adaef9686983f263ab35a}{interp}} () override
+\begin{DoxyCompactList}\small\item\em Returns the product of the left and right subexpression values. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_mult_a214c39d71da10d21bdbd7fbc70032357}{has\+\_\+variable}} () override
+\begin{DoxyCompactList}\small\item\em Checks if the expression contains any variables. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_mult_abb6aba220bd4358219bc44e80786de09}{subst}} (const std\+::string \&variable, \mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}replacement) override
+\begin{DoxyCompactList}\small\item\em Substitutes variables in the expression with given replacements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_mult_a0f1f3d51bfc9c3b4ddf9794a2b73184a}{print}} (std\+::ostream \&os) const override
+\begin{DoxyCompactList}\small\item\em Outputs the multiplication expression to the provided ostream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_mult_a2318adaebfe988d87038f617cd2e635b}{pretty\+\_\+print}} (std\+::ostream \&ostream, precedence\+\_\+t p) override
+\begin{DoxyCompactList}\small\item\em Pretty prints the multiplication expression to the provided ostream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_expr}{Expr}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string {\bfseries to\+\_\+pp\+\_\+string} ()
+\item 
+std\+::string {\bfseries to\+\_\+string} ()
+\item 
+void {\bfseries pretty\+\_\+print\+\_\+at} (std\+::ostream \&ostream)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_mult_a9e2acda98ce8c008004b39f1f76e7eab}\label{class_mult_a9e2acda98ce8c008004b39f1f76e7eab} 
+\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} {\bfseries lhs}
+\begin{DoxyCompactList}\small\item\em Lhs of expression. \end{DoxyCompactList}\item 
+\Hypertarget{class_mult_abc649b82c60b2531ceeff3a5d7a552b0}\label{class_mult_abc649b82c60b2531ceeff3a5d7a552b0} 
+\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} {\bfseries rhs}
+\begin{DoxyCompactList}\small\item\em Rhs of expression. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_mult_ace9998f1dc023823e04c15bb359ea79c}\label{class_mult_ace9998f1dc023823e04c15bb359ea79c} 
+\index{Mult@{Mult}!Mult@{Mult}}
+\index{Mult@{Mult}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{Mult()}{Mult()}}
+{\footnotesize\ttfamily Mult\+::\+Mult (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}}]{lhs,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}}]{rhs }\end{DoxyParamCaption})}
+
+
+
+\doxylink{class_mult}{Mult} class represents a multiplication expression. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_expr}{Expr}} & \texorpdfstring{$\ast$}{*}lhs is the left-\/hand side subexpression. \\
+\hline
+{\em \doxylink{class_expr}{Expr}} & \texorpdfstring{$\ast$}{*}rhs is the right-\/hand side subexpression.\\
+\hline
+\end{DoxyParams}
+Constructor for \doxylink{class_mult}{Mult} class. 
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_expr}{Expr}} & \texorpdfstring{$\ast$}{*}lhs is the left-\/hand side subexpression. \\
+\hline
+{\em \doxylink{class_expr}{Expr}} & \texorpdfstring{$\ast$}{*}rhs is the right-\/hand side subexpression. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_mult_aa64da9a8fc6b019f8a2db6f813d9a4e6}\label{class_mult_aa64da9a8fc6b019f8a2db6f813d9a4e6} 
+\index{Mult@{Mult}!equals@{equals}}
+\index{equals@{equals}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily bool Mult\+::equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Checks if the given expression is equal to the current \doxylink{class_mult}{Mult} instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{class_expr}{Expr}} & \texorpdfstring{$\ast$}{*}e is a pointer to an expression to compare. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if equal, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_mult_a214c39d71da10d21bdbd7fbc70032357}\label{class_mult_a214c39d71da10d21bdbd7fbc70032357} 
+\index{Mult@{Mult}!has\_variable@{has\_variable}}
+\index{has\_variable@{has\_variable}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{has\_variable()}{has\_variable()}}
+{\footnotesize\ttfamily bool Mult\+::has\+\_\+variable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Checks if the expression contains any variables. 
+
+\begin{DoxyReturn}{Returns}
+Returns true if either the left or right subexpression contains a variable. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_mult_a0ae0098f4a1adaef9686983f263ab35a}\label{class_mult_a0ae0098f4a1adaef9686983f263ab35a} 
+\index{Mult@{Mult}!interp@{interp}}
+\index{interp@{interp}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{interp()}{interp()}}
+{\footnotesize\ttfamily int Mult\+::interp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Returns the product of the left and right subexpression values. 
+
+\begin{DoxyReturn}{Returns}
+Returns the result of the multiplication as an integer. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_mult_a2318adaebfe988d87038f617cd2e635b}\label{class_mult_a2318adaebfe988d87038f617cd2e635b} 
+\index{Mult@{Mult}!pretty\_print@{pretty\_print}}
+\index{pretty\_print@{pretty\_print}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{pretty\_print()}{pretty\_print()}}
+{\footnotesize\ttfamily void Mult\+::pretty\+\_\+print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{ostream,  }\item[{precedence\+\_\+t}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Pretty prints the multiplication expression to the provided ostream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em std\+::ostream} & \&ostream is the output stream. \\
+\hline
+{\em precedence\+\_\+t} & p is the precedence level for proper formatting. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_mult_a0f1f3d51bfc9c3b4ddf9794a2b73184a}\label{class_mult_a0f1f3d51bfc9c3b4ddf9794a2b73184a} 
+\index{Mult@{Mult}!print@{print}}
+\index{print@{print}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Mult\+::print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Outputs the multiplication expression to the provided ostream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em std\+::ostream} & \&os is the output stream. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+\Hypertarget{class_mult_abb6aba220bd4358219bc44e80786de09}\label{class_mult_abb6aba220bd4358219bc44e80786de09} 
+\index{Mult@{Mult}!subst@{subst}}
+\index{subst@{subst}!Mult@{Mult}}
+\doxysubsubsection{\texorpdfstring{subst()}{subst()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*} Mult\+::subst (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{variable,  }\item[{\mbox{\hyperlink{class_expr}{Expr}} \texorpdfstring{$\ast$}{*}}]{replacement }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Substitutes variables in the expression with given replacements. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::string \&variable is the variable to substitute. \\
+\hline
+{\em \doxylink{class_expr}{Expr}} & \texorpdfstring{$\ast$}{*}replacement is the expression to replace the variable. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a new \doxylink{class_mult}{Mult} expression with substituted variables. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_expr}{Expr}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/melanieprettyman/\+Desktop/\+MSD/\+Spring2024/\+CS6015/\+CS6015/\+LABS/\+Lab4/\mbox{\hyperlink{_expr_8h}{Expr.\+h}}\item 
+/\+Users/melanieprettyman/\+Desktop/\+MSD/\+Spring2024/\+CS6015/\+CS6015/\+LABS/\+Lab4/\mbox{\hyperlink{_expr_8cpp}{Expr.\+cpp}}\end{DoxyCompactItemize}
