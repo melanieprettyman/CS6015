@@ -8,7 +8,7 @@
 CXX=c++
 CFLAGS= -std=c++11
 CCSOURCE= main.cpp cmdline.cpp Expr.cpp tests.cpp
-HEADERS= cmdline.h Expr.h catch.h tests.h 
+HEADERS= cmdline.h Expr.h catch.h tests.h
 
 msdScript: $(CCSOURCE) $(HEADERS)
 	$(CXX) $(CFLAGS) -o msdScript $(CCSOURCE)

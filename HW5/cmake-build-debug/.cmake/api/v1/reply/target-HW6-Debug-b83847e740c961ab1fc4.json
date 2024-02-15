@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "HW5"
+			"path" : "HW6"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "HW5::@6890427a1f51a3e7e1df",
+	"id" : "HW6::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -73,8 +73,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "HW5",
-	"nameOnDisk" : "HW5",
+	"name" : "HW6",
+	"nameOnDisk" : "HW6",
 	"paths" : 
 	{
 		"build" : ".",

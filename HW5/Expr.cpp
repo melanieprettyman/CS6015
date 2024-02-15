@@ -53,7 +53,7 @@ void Num::print(std::ostream &os) const{
 
 
 
-void Num::pretty_print(std::ostream &ostream, precedence_t p) {
+void Num::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) {
     ostream <<this->val;
 
 }
@@ -108,14 +108,14 @@ void Add::print(std::ostream &os) const{
 
 
 
-void Add::pretty_print(std::ostream &ostream, precedence_t p) {
+void Add::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) {
     if(p > prec_add){
         ostream << "(";
     }
 
-    (this->lhs->pretty_print(ostream, prec_add));
+    (this->lhs->pretty_print(ostream, static_cast<precedence_t>(prec_add + 1), true, pos));
     ostream << " + ";
-    (this->rhs->pretty_print(ostream, prec_add));
+    (this->rhs->pretty_print(ostream, prec_none, true, pos));
 
     if(p > prec_add){
         ostream << ")";
@@ -171,22 +171,35 @@ void Mult::print(std::ostream &os) const{
 }
 
 
+//todo: explain _let expectations
 
-void Mult::pretty_print(std::ostream &ostream, precedence_t p) {
+// Function to pretty print a multiplication expression
+// Parameters:
+//   - ostream: Reference to an output stream where the formatted expression will be written.
+//   - p: The current precedence level, used to determine if parentheses are needed around the expression.
+//   - let_needs_parenthesis: A boolean flag indicating if the let expressions contained within need to be enclosed in parentheses.
+//   - pos: The initial position in the output stream, used for alignment but not directly utilized in this function.
+void Mult::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) {
+
+    // Add opening parenthesis if the precedence level is higher than that of multiplication,
+    // indicating this expression is part of a larger expression
     if(p > prec_mult){
+        let_needs_parenthesis = false;
         ostream << "(";
     }
 
-
-    (this->lhs->pretty_print(ostream, static_cast<precedence_t >(prec_mult+1)));
+    // Recursively pretty print the lhs of the multiplication, adjusting its precedence to ensure proper formatting.
+    this->lhs->pretty_print(ostream, static_cast<precedence_t>(prec_mult + 1), let_needs_parenthesis, pos);
     ostream << " * ";
-    (this->rhs->pretty_print(ostream, prec_mult));
+    // Recursively pretty print the rhs of the multiplication, with its original precedence.
+    this->rhs->pretty_print(ostream, prec_mult, let_needs_parenthesis, pos);
 
-
+    // Add closing parenthesis if necessary
     if(p > prec_mult){
         ostream << ")";
     }
 }
+
 
 //---------------------------------------------
 //                VarExpr CLASS
@@ -236,7 +249,7 @@ void VarExpr::print(std::ostream &os) const{
 
 
 
-void VarExpr::pretty_print(std::ostream &ostream, precedence_t p) {
+void VarExpr::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) {
     ostream <<this->var;
 
 }
@@ -305,6 +318,35 @@ void _let::print(std::ostream &os) const {
 }
 
 
-void _let::pretty_print(std::ostream &ostream, precedence_t p) {
+// Function to pretty print a let expression
+// Parameters:
+//   - ostream: Reference to an output stream where the formatted expression will be written.
+//   - p: The current precedence level, used to determine if parentheses are needed.
+//   - let_needs_parenthesis: A boolean flag indicating if the let expression should be enclosed in parentheses
+//   - pos: The initial position in the output stream, used for alignment purposes.
+void _let::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) {
+    //counts spaces
+    if(p > prec_none && let_needs_parenthesis){
+        ostream << "(";
+    }
 
+    int letPos = ostream.tellp();
+    int n = letPos - pos;
+    ostream << "_let " << this->lhs << " = " ;
+
+    this->rhs->pretty_print(ostream, p, let_needs_parenthesis, letPos);
+    ostream << "\n" << " ";
+    int inPos = ostream.tellp();
+
+    while(n > 0){
+        ostream << " ";
+        n--;
+    }
+    ostream << "_in  ";
+    this->body->pretty_print(ostream, prec_none, let_needs_parenthesis, inPos);
+
+    if(p > prec_none && let_needs_parenthesis){
+        ostream << ")";
+    }
 }
+

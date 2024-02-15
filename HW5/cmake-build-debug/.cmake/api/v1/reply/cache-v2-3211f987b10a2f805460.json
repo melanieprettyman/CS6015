@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "HW5"
+			"value" : "HW6"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1118,7 +1118,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "HW5_BINARY_DIR",
+			"name" : "HW6_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1130,7 +1130,7 @@
 			"value" : "/Users/melanieprettyman/Desktop/MSD/Spring2024/CS6015/CS6015/HW5/cmake-build-debug"
 		},
 		{
-			"name" : "HW5_IS_TOP_LEVEL",
+			"name" : "HW6_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1142,7 +1142,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "HW5_SOURCE_DIR",
+			"name" : "HW6_SOURCE_DIR",
 			"properties" : 
 			[
 				{

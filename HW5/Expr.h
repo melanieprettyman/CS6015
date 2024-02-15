@@ -37,10 +37,10 @@ public:
     }
 
     void pretty_print_at(std::ostream &ostream){
-        this->pretty_print(ostream, prec_none);
+        this->pretty_print(ostream, prec_none, true, 0);
     }
 
-    virtual void pretty_print(std::ostream &ostream, precedence_t p) = 0;
+    virtual void pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos)  = 0;
 
 };
 
@@ -57,7 +57,7 @@ public:
     bool has_variable() override;
     Expr* subst(const std::string& variable, Expr* replacement) override;
     void print(std::ostream &os) const override;
-    void pretty_print(std::ostream &ostream, precedence_t p) override;
+    void pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) override;
 };
 
 //---------------------------------------------
@@ -74,7 +74,7 @@ public:
     bool has_variable() override;
     Expr* subst(const std::string& variable, Expr* replacement) override;
     void print(std::ostream &os) const override;
-    void pretty_print(std::ostream &ostream, precedence_t p) override;
+    void pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) override;
 
 
 
@@ -94,7 +94,7 @@ public:
     bool has_variable() override;
     Expr* subst(const std::string& variable, Expr* replacement) override;
     void print(std::ostream &os) const override;
-    void pretty_print(std::ostream &ostream, precedence_t p) override;
+    void pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos)override;
 
 
 
@@ -113,7 +113,7 @@ public:
     bool has_variable() override;
     Expr* subst(const std::string& variable, Expr* replacement) override;
     void print(std::ostream &os) const override;
-    void pretty_print(std::ostream &ostream, precedence_t p) override;
+    void pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) override;
 
 
 };
@@ -136,6 +136,6 @@ public:
     bool has_variable() override;
     Expr* subst(const std::string& variable, Expr* replacement) override;
     void print(std::ostream &os) const override;
-    void pretty_print(std::ostream &ostream, precedence_t p) override;
+    void pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_parenthesis, int pos) override;
 };
 #endif //HW2_EXPR_H
