@@ -1,0 +1,7 @@
+# ninja log v5
+3	409	1708028615778811433	CMakeFiles/HW6.dir/parse.cpp.o	6c16b2eba5fbcedb
+1	431	1708028615798283454	CMakeFiles/HW6.dir/Expr.cpp.o	feaadc9930f8b81c
+1	442	1708028615812559700	CMakeFiles/HW6.dir/cmdline.cpp.o	8dcbf495e4ea89de
+3	474	1708028615844651098	CMakeFiles/HW6.dir/tests.cpp.o	b7d07f16f1391626
+0	2256	1708028617619788190	CMakeFiles/HW6.dir/main.cpp.o	ed3f40a86cbe0ef1
+2256	2310	1708028617683424320	HW6	88de6d06cc20d80b

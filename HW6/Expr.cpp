@@ -113,7 +113,7 @@ void Add::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_par
         ostream << "(";
     }
 
-    (this->lhs->pretty_print(ostream, static_cast<precedence_t >(prec_add+1), true, pos));
+    (this->lhs->pretty_print(ostream, static_cast<precedence_t>(prec_add + 1), true, pos));
     ostream << " + ";
     (this->rhs->pretty_print(ostream, prec_none, true, pos));
 
@@ -171,6 +171,7 @@ void Mult::print(std::ostream &os) const{
 }
 
 
+//todo: explain _let expectations
 
 // Function to pretty print a multiplication expression
 // Parameters:
@@ -186,8 +187,6 @@ void Mult::pretty_print(std::ostream &ostream, precedence_t p, bool let_needs_pa
         let_needs_parenthesis = false;
         ostream << "(";
     }
-
-
 
     // Recursively pretty print the lhs of the multiplication, adjusting its precedence to ensure proper formatting.
     this->lhs->pretty_print(ostream, static_cast<precedence_t>(prec_mult + 1), let_needs_parenthesis, pos);

@@ -6,7 +6,9 @@
 #define HW4_TESTS_H
 #include "catch.h"
 #include "Expr.h"
+#include "parse.hpp"
 
 
+Expr* parse_str(const std::string &str);
 
 #endif //HW4_TESTS_H

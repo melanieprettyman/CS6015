@@ -394,10 +394,101 @@ TEST_CASE("Substitution and Interp in Let Expression") {
 
 }
 
+//---------------------------------------------
+//             Test parse CLASS
+//---------------------------------------------
+
+TEST_CASE("Class: Parse tests") {
+
+    SECTION("Number parsing") {
+
+        std::stringstream ss("42");
+        Expr* e = parse(ss);
+        REQUIRE(e->to_string() == "42");
+
+        ss.str("-15");
+        ss.clear(); // Clear flags
+        e = parse(ss);
+        REQUIRE(e->to_string() == "-15");
+    }
 
 
+    SECTION("Add expression parsing") {
+        std::stringstream ss("1 + 2");
+        Expr* e = parse(ss);
+        REQUIRE(e->to_string() == "(1+2)");
 
+        ss.str("3 + 4 + 5");
+        ss.clear(); // Clear flags
+        e = parse(ss);
+        REQUIRE(e->to_string() == "(3+(4+5))");
+    }
 
+    SECTION("Mult expression parsing") {
+        std::stringstream ss("2 * 3");
+        Expr* e = parse(ss);
+        REQUIRE(e->to_string() == "(2*3)");
+
+        ss.str("4 * 5 * 6");
+        ss.clear(); // Clear flags
+        e = parse(ss);
+        REQUIRE(e->to_string() == "(4*(5*6))");
+    }
+
+    SECTION("Mixed expressions parsing") {
+        std::stringstream ss("1 + 2 * 3");
+        Expr* e = parse(ss);
+        REQUIRE(e->to_string() == "(1+(2*3))");
+
+        ss.str("(4 + 5) * 6");
+        ss.clear(); // Clear flags
+        e = parse(ss);
+        REQUIRE(e->to_string() == "((4+5)*6)");
+    }
+}
+
+// Function to parse a string into an Expr*
+Expr* parse_str(const std::string &str) {
+    std::istringstream iss(str);
+    return parse(iss);
+}
+
+TEST_CASE("parse") {
+    CHECK_THROWS_WITH( parse_str("()"), "invalid input" );
+
+    CHECK( parse_str("(1)")->equals(new Num(1)) );
+    CHECK( parse_str("(((1)))")->equals(new Num(1)) );
+
+    CHECK_THROWS_WITH( parse_str("(1"), "missing close parenthesis" );
+
+    CHECK( parse_str("1")->equals(new Num(1)) );
+    CHECK( parse_str("10")->equals(new Num(10)) );
+    CHECK( parse_str("-3")->equals(new Num(-3)) );
+    CHECK( parse_str("  \n 5  ")->equals(new Num(5)) );
+    CHECK_THROWS_WITH( parse_str("-"), "Invalid input" );
+    CHECK_THROWS_WITH( parse_str(" -   5  "), "Invalid input" );
+
+    CHECK( parse_str("x")->equals(new VarExpr("x")) );
+    CHECK( parse_str("xyz")->equals(new VarExpr("xyz")) );
+    CHECK( parse_str("xYz")->equals(new VarExpr("xYz")) );
+    CHECK_THROWS_WITH( parse_str("x_z"), "Invalid input" );
+
+    CHECK( parse_str("x + y")->equals(new Add(new VarExpr("x"), new VarExpr("y"))) );
+
+    CHECK( parse_str("x * y")->equals(new Mult(new VarExpr("x"), new VarExpr("y"))) );
+
+    CHECK( parse_str("z * x + y")
+                   ->equals(new Add(new Mult(new VarExpr("z"), new VarExpr("x")),
+                                    new VarExpr("y"))) );
+
+    CHECK( parse_str("z * (x + y)")
+                   ->equals(new Mult(new VarExpr("z"),
+                                     new Add(new VarExpr("x"), new VarExpr("y"))) ));
+
+}
+TEST_CASE("testing_let_parse"){
+    CHECK(parse_str(("_let x=5 _in (x+7)"))->equals(new _let("x", new Num(5), new Add(new VarExpr("x"), new Num(7)))));
+}
 
 
 
