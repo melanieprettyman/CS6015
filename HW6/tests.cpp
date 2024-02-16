@@ -488,6 +488,13 @@ TEST_CASE("parse") {
 }
 TEST_CASE("testing_let_parse"){
     CHECK(parse_str(("_let x=5 _in (x+7)"))->equals(new _let("x", new Num(5), new Add(new VarExpr("x"), new Num(7)))));
+
+    CHECK(parse_str(("_let x=5 _in (x+7)"))->equals(new _let("x", new Num(5), new Add(new VarExpr("x"), new Num(7)))));
+    CHECK(parse_str(("_let x=10 _in (y+10)"))->equals(new _let("x", new Num(10), new Add(new VarExpr("y"), new Num(10)))));
+    CHECK(parse_str(("(_let x=5 _in ((_let y=3 _in (y+2))+x))"))
+                  ->equals(new _let("x", new Num(5),
+                                   new Add(new _let("y", new Num(3), new Add(new VarExpr("y"), new Num(2))), new VarExpr("x")))));
+    CHECK(parse_str(("(_let x=5 _in (x+7))"))->equals((new _let("x", new Num(5), new Add(new VarExpr("x"), new Num(7))))));
 }
 
 

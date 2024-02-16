@@ -3,103 +3,107 @@
 
 
 
+// Parses a numeric expression from the input stream, handling negative numbers and ensuring valid numeric input.
 Expr *parse_num(std::istream &inn) {
     int n = 0;
-    bool negative = false;
-    bool digitSeen = false;
+    bool negative = false; // Flag to track if the number is negative
+    bool digitSeen = false; // Flag to ensure at least one digit is seen
 
-    if (inn.peek() == '-') {
+    if (inn.peek() == '-') { // Check for negative sign
         negative = true;
-        consume(inn, '-');
+        consume(inn, '-'); // Consume the '-' sign
     }
 
-    while (true) {
+    while (true) { // Loop to parse the digits of the number
         int c = inn.peek();
         if (isdigit(c)) {
-            consume(inn, c);
-            n = n * 10 + (c - '0');
+            consume(inn, c); // Consume the digit
+            n = n * 10 + (c - '0'); // Build the number
             digitSeen = true;
         } else {
-            break;
+            break; // Break if no more digits are found
         }
     }
 
     if (negative && !digitSeen) {
-        // If negative was set but no digit was seen, throw an error
-        throw std::runtime_error("Invalid input");
+        throw std::runtime_error("Invalid input"); // Throw error if '-' is not followed by any digits
     }
 
     if (negative) {
-        n = -n;
+        n = -n; // Apply the negative sign to the number
     }
 
-    return new Num(n);
+    return new Num(n); // Return the parsed number as a Num expression
 }
 
+// Parses a variable expression from the input stream, constructing a variable name from consecutive alphabetic characters.
 Expr *parse_var(std::istream &inn) {
     std::string var;
     while (true) {
         int c = inn.peek();
-        if (isalpha(c)) {
-            consume(inn, c);
-            var += static_cast<char>(c);
+        if (isalpha(c)) { // Check for alphabetic character
+            consume(inn, c); // Consume the character
+            var += static_cast<char>(c); // Append the character to the variable name
         } else {
-            break;
+            break; // Break if no more valid characters for variable name are found
         }
     }
 
-    return new VarExpr(var);
+    return new VarExpr(var); // Return the parsed variable as a VarExpr
 }
 
-
+// Parses a _let expression from the input stream, including parsing of lhs variable, rhs expression, and the body expression.
 Expr *parse_let(std::istream &in) {
-    skip_whitespace(in);
+    skip_whitespace(in); // Skip leading whitespace
     std::string _let = "_let";
-    consumeWord(in, _let);
+    consumeWord(in, _let); // Consume the "_let" keyword
 
     skip_whitespace(in);
-    Expr *lhs = parse_var(in);
+    Expr *lhs = parse_var(in); // Parse the lhs variable
 
     skip_whitespace(in);
-    consume(in, '=');
+    consume(in, '='); // Consume the '=' sign
 
     skip_whitespace(in);
-    Expr *rhs = parse_expr(in);
+    Expr *rhs = parse_expr(in); // Parse the rhs expression
 
     std::string _in = "_in";
-    consumeWord(in, _in);
+    consumeWord(in, _in); // Consume the "_in" keyword
 
     skip_whitespace(in);
-    Expr *body = parse_expr(in);
+    Expr *body = parse_expr(in); // Parse the body expression
 
-    return new class _let(lhs->to_string(), rhs, body);
+    return new class _let(lhs->to_string(), rhs, body); // Return the parsed _let expression
 }
 
-
+// Consumes a specific word from the input stream, ensuring the input stream matches the expected keyword.
 static void consumeWord(std::istream &in, std::string word) {
-    for(char letter: word){
+    for(char letter: word) { // Iterate through each letter of the word
         int c = in.peek();
-        if (c==letter) {
-            consume(in, c);
+        if (c == letter) {
+            consume(in, c); // Consume the letter if it matches
         }
     }
 }
 
+// Consumes a single expected character from the input stream, throwing an error if the character does not match the expectation.
 static void consume(std::istream &in, int expect) {
-    int c = in.get();
-    if (c!=expect) {
-        throw std::runtime_error("consume mismatch");
+    int c = in.get(); // Get the next character from the stream
+    if (c != expect) {
+        throw std::runtime_error("consume mismatch"); // Throw error if the character does not match the expected one
     }
 }
 
+// Skips whitespace characters in the input stream to prepare for parsing the next token.
 void skip_whitespace(std::istream &in) {
-  while (1) {
-    int c = in.peek();
-    if (!isspace(c))
-      break;
-    consume(in, c);
-      }
+    while (1) {
+        int c = in.peek(); // Peek the next character without consuming it
+        if (!isspace(c)) // Check if it's not a whitespace character
+            break; // Break the loop if no more whitespace
+        consume(in, c); // Consume the whitespace character
+    }
 }
+
 
 //<multican> = <number>
 //       | (<expr>)
