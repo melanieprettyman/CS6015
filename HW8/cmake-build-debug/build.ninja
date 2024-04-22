@@ -55,12 +55,6 @@ build CMakeFiles/HW8.dir/main.cpp.o: CXX_COMPILER__HW8_unscanned_Debug /Users/me
   OBJECT_DIR = CMakeFiles/HW8.dir
   OBJECT_FILE_DIR = CMakeFiles/HW8.dir
 
-build CMakeFiles/HW8.dir/cmdline.cpp.o: CXX_COMPILER__HW8_unscanned_Debug /Users/melanieprettyman/Desktop/MSD/Spring2024/CS6015/CS6015/HW8/cmdline.cpp || cmake_object_order_depends_target_HW8
-  DEP_FILE = CMakeFiles/HW8.dir/cmdline.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/HW8.dir
-  OBJECT_FILE_DIR = CMakeFiles/HW8.dir
-
 build CMakeFiles/HW8.dir/Expr.cpp.o: CXX_COMPILER__HW8_unscanned_Debug /Users/melanieprettyman/Desktop/MSD/Spring2024/CS6015/CS6015/HW8/Expr.cpp || cmake_object_order_depends_target_HW8
   DEP_FILE = CMakeFiles/HW8.dir/Expr.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
@@ -85,6 +79,12 @@ build CMakeFiles/HW8.dir/val.cpp.o: CXX_COMPILER__HW8_unscanned_Debug /Users/mel
   OBJECT_DIR = CMakeFiles/HW8.dir
   OBJECT_FILE_DIR = CMakeFiles/HW8.dir
 
+build CMakeFiles/HW8.dir/cmdline.cpp.o: CXX_COMPILER__HW8_unscanned_Debug /Users/melanieprettyman/Desktop/MSD/Spring2024/CS6015/CS6015/HW8/cmdline.cpp || cmake_object_order_depends_target_HW8
+  DEP_FILE = CMakeFiles/HW8.dir/cmdline.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/HW8.dir
+  OBJECT_FILE_DIR = CMakeFiles/HW8.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target HW8
@@ -93,7 +93,7 @@ build CMakeFiles/HW8.dir/val.cpp.o: CXX_COMPILER__HW8_unscanned_Debug /Users/mel
 #############################################
 # Link the executable HW8
 
-build HW8: CXX_EXECUTABLE_LINKER__HW8_Debug CMakeFiles/HW8.dir/main.cpp.o CMakeFiles/HW8.dir/cmdline.cpp.o CMakeFiles/HW8.dir/Expr.cpp.o CMakeFiles/HW8.dir/parse.cpp.o CMakeFiles/HW8.dir/tests.cpp.o CMakeFiles/HW8.dir/val.cpp.o
+build HW8: CXX_EXECUTABLE_LINKER__HW8_Debug CMakeFiles/HW8.dir/main.cpp.o CMakeFiles/HW8.dir/Expr.cpp.o CMakeFiles/HW8.dir/parse.cpp.o CMakeFiles/HW8.dir/tests.cpp.o CMakeFiles/HW8.dir/val.cpp.o CMakeFiles/HW8.dir/cmdline.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3
   OBJECT_DIR = CMakeFiles/HW8.dir
   POST_BUILD = :

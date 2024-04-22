@@ -4,8 +4,8 @@ project(HW8)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(HW8 main.cpp
-        cmdline.cpp
         Expr.cpp
         parse.cpp
         tests.cpp
-        val.cpp)
+        val.cpp
+        cmdline.cpp)

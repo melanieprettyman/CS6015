@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97369aab-c52a-4c9b-a99b-e8bfb30cc7db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../HW5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/.idea/HW5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/Expr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/Expr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/catch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/cache-v2-cee9ddc4bc2fb530a8e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-11948115d3d90da3390d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-061c75deaeec881233a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-08T16-32-11-0977.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/target-HW5-Debug-2d3cf16c6dcb853d1f42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ccbe19dcd09cbd5fdb00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmdline.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/cmdline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/msdScript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/tests.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW5/tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/Expr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/Expr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/Expr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/Expr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/cmdline.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/cmdline.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/cmdline.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/cmdline.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/msdScript" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/msdScript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/parse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/parse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/parse.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/parse.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW6/tests.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW6/tests.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2cPanLSTGcSJ9HQKE1XyDtLWkbP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nameSpaceDemo" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97369aab-c52a-4c9b-a99b-e8bfb30cc7db" name="Changes" comment="" />
+      <created>1708015832159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708015832159</updated>
+      <workItem from="1708015833242" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
